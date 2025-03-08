@@ -1,0 +1,232 @@
+title: "Early Ford V-8 Foundation Museums"
+description: "Preserving Ford Motor History"
+language: "en"
+locale: en_US
+image: /img/logo.png
+favicon: /img/logo.png
+#url: "http://localhost:8080"
+url: "https://fv8f.fyi"
+
+
+formspree_id: 
+
+metasocial: 
+ - facebook: "https://www.facebook.com/earlyfordv8museum"
+ - twitteruser: "@user"
+ - twitter: "https://x.com/user"
+
+nav_logo: "/img/logo.png"
+
+nav_button: 
+ title: Buy Ticket
+ url: 
+
+nav1:
+  nav: Home
+  url: /
+
+nav2:
+  title: News
+  nav2_1: Events
+  nav2_2: What News
+  nav2_3:
+    title: Education
+    item: 
+      - nav: Lessons
+        url: /
+      - nav: Videos
+        url: /  
+      - nav: Stoies
+        url: /
+
+nav3:
+  nav: Collections
+  url: /
+
+nav4:
+  title: Donate
+  item: 
+   - nav: Adopt a Ford
+     url: /
+   - nav: Give
+     url: /  
+   - nav: Shop
+     url: /
+   - nav: Ebay
+     url: /
+
+nav5:
+  title: Members
+  item: 
+   - nav: Membership
+     url: /
+   - nav: Register New Member
+     url: /
+   - nav: Consignmnet
+     url: /
+
+nav6:
+  title: About
+  item: 
+   - nav: About Us
+     url: /
+   - nav: Staff
+     url: /
+   - nav: Patners
+     url: /
+   - nav: Members
+     url: /
+
+nav7:
+  nav: Contact
+  url: /contact/
+
+# Widgets
+
+search: "Search"
+
+open_hours:
+ title: Open Hours
+ button: 
+  text: Buy Tickets 
+  url: /
+ info: 
+  - day: Monday
+    time: 9:00-5:00
+  - day: Tuesday
+    time: 9:00-5:00
+  - day: Wednesday
+    time: 9:00-5:00
+  - day: Thursday
+    time: 9:00-5:00
+  - day: Friday
+    time: 9:00-5:00
+  - day: Saturday
+    time: 9:00-5:00
+  - day: Sunday
+    time: 11:00-3:00 
+  - day: Holidays
+    time: check this website before planning your visit on a holiday. 
+
+
+event: 
+    title: Upcoming Event
+    button: Explore All Event
+    url: /events/
+
+news:
+    title: News Article
+    button: Explore All Article
+    url: /news/
+
+collections:
+    title: Our Collections
+    bakcground: "/img/ford7.webp"
+    text: "As a member of the Early Ford V-8 Foundation Museum, you will contribute to expanding exhibits and programs highlighting the history of the Ford Flathead V-8 era. As well as the people who designed, built & promoted this great American legacy."
+    button: Visit Collections
+    url: /collections/
+
+store:
+    title: The Ford Store
+    background: /img/lim.webp
+    text: "Featuring museum branded apparel, automobilia, books, automotive literature, archives, and much more!"
+    button: Visit Store
+    url: /collections/
+    item: 
+      - title: Beanie Skull Cap, Sock Hat V-8 Logo
+        image: /img/shop1.webp
+        price: $10
+        url: /
+      - title: Logo Magnet
+        image: /img/shop2.webp
+        price: $6
+        url: /
+      - title: "It's Ford for '40 Restoration Manual"
+        image: /img/shop3.webp
+        price: $50
+        url: /
+
+patners:
+  title: Our Patner
+  item: 
+   - title: Heny Ford
+     image: /img/henryford.jpeg
+     url: http://hfha.org/
+   - title: Benson Ford
+     image: /img/Benson.jpeg
+     url: https://www.thehenryford.org/collections-and-research/about/
+   - title: Ford Plex
+     image: /img/t-plexlogo3.gif
+     url: https://www.fordpiquetteplant.org/
+   - title: Ford House
+     image: /img/ford-house.png
+     url: https://www.fordhouse.org/
+   - title: Fair Lane
+     image: /img/fairlane.jpeg
+     url: http://www.henryfordfairlane.org/
+   - title: Winter Estates
+     image: /img/winter-estates.png
+     url: https://www.edisonfordwinterestates.org/
+   - title: Richmond Hill
+     image: /img/richmond-hill.jpeg
+     url: http://www.richmondhillhistoricalsociety.com/
+   - title: Yankee Air Museum
+     image: /img/yankee-air-museum.png
+     url: https://yankeeairmuseum.org/
+   - title: Berry College
+     image: /img/berry-college.png
+     url: https://berry.edu/
+   - title: Motor Cities
+     image: /img/motorcities.jpeg
+     url: https://www.motorcities.org/
+   - title: High Land
+     image: /img/highland.png
+     url: https://www.fohravolunteers.org/
+   - title: Dennis Carpenter
+     image: /img/dennis-carpenter.png
+     url: https://www.dennis-carpenter.com/
+
+
+footer:
+ title: "Ford V8 Foundation"
+ logo: "/img/logo.png"
+ item: 
+  - nav: Home
+    url: /
+  - nav: About
+    url: /about/
+  - nav: Collections
+    url: /collections/  
+  - nav: Donation
+    url: /faq/
+  - nav: Shop
+    url: /  
+  - nav: Ebay
+    url: /  
+ address: 
+  - text: "P.o. Box 284 2081 Rotunda Drive Auburn IN 46706"
+ phone: 
+  text: "Phone"
+  number: "(260) 927-8022"
+  url: "tel:+2609278022"
+ email: 
+  text: "info@fordv8foundation.org"
+  url: "mailto:info@fordv8foundation.org"
+ social: 
+  - icon: fab fa-facebook
+    title: Ford Museum Facebook
+    url: https://www.facebook.com/earlyfordv8museum
+  - icon: fab fa-instagram
+    title: Ford Museum Instagram
+    url: https://www.instagram.com/earlyfordv8museum/
+
+copyrights: 
+ text1: Copyrights 2025 
+ text2: Early Ford v8 Museum
+ text2_url: /
+
+author: 
+ name: "Betty Lyons"
+ image: "/img/Betty-Lyons-Headshot-1.jpg"
+ email: "aila@aila.ngo"
+ url: "https://www.aila.ngo"
