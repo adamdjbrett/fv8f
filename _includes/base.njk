@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+{% include "partials/seo.njk" %}
+</head>
+<body>
+<a href="#main-content" class="skip-to-content">Skip to content</a>
+{% include "partials/navbar.njk" %}
+<main id="main-content">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+</body>
+</html>

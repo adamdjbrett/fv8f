@@ -1,0 +1,87 @@
+<nav class="navbar navbar-expand-lg blues fixed-top btr">
+  <div class="container-fluid col-md-11 mx-auto">
+   <a class="navbar-brand text-white" title="logo" href="#">
+<img class="img-logo" alt="{{page.title or metadata.title}}" src="{{metadata.nav_logo}}">
+</a>
+<button class="navbar-toggler btn btn-light lit me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+<div id="timer" class="text-white w-100 text-center timer mobile mb-5"></div>
+    <div id="time" class="text-white w-100 text-end mb-2 desktop"></div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-end p-3">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{metadata.nav1.url}}">{{metadata.nav1.nav}}</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{metadata.nav2.title}}
+          </a>
+          <div class="dropdown-menu mega-menu p-3 mg">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h5>{{metadata.nav2.nav2_1}}</h5>
+                <ul class="list-unstyled">{% for e in collections.events | reverse |limit(4) %}
+                  <li><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                {% endfor %}</ul>
+              </div>
+              <div class="col-md-4 col-12">
+                <h5>{{metadata.nav2.nav2_2}}</h5>
+                <ul class="list-unstyled">{% for e in collections.news | reverse |limit(4) %}
+                  <li><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                {% endfor %}</ul>
+              </div>
+              <div class="col-md-4 col-12">
+                <h5>{{metadata.nav2.nav2_3.title}}</h5>
+                <ul class="list-unstyled">{% for ns in metadata.nav2.nav2_3.item %}
+            <li><a class="dropdown-item small meg" href="{{ns.url}}">{{ns.nav}}</a></li>
+                {% endfor %}</ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{metadata.nav3.url}}">{{metadata.nav3.nav}}</a>
+        </li>
+
+  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{metadata.nav4.title}}
+          </a>
+          <ul class="dropdown-menu">{% for ns in metadata.nav4.item %}
+            <li><a class="dropdown-item" href="{{ns.url}}">{{ns.nav}}</a></li>
+          {% endfor %}</ul>
+        </li>
+
+  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{metadata.nav5.title}}
+          </a>
+          <ul class="dropdown-menu">{% for ns in metadata.nav5.item %}
+            <li><a class="dropdown-item" href="{{ns.url}}">{{ns.nav}}</a></li>
+          {% endfor %}</ul>
+        </li>
+
+  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{metadata.nav6.title}}
+          </a>
+          <ul class="dropdown-menu">{% for ns in metadata.nav6.item %}
+            <li><a class="dropdown-item" href="{{ns.url}}">{{ns.nav}}</a></li>
+          {% endfor %}</ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{metadata.nav7.url}}">{{metadata.nav7.nav}}</a>
+        </li>
+      </ul>
+      <div class="d-flex p-1">
+        <a href="{{metadata.nav_button.url}}" class="btn btn-light me-3 btn-sm">{{metadata.nav_button.title}}</a>
+<button type="button" class="btn btn-outline-light btn-sm desktop" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+<button type="button" class="btn btn-outline-light btn-sm mobile" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i> {{metadata.search}}</button>
+      </div>
+    </div>
+  </div>
+</nav>
