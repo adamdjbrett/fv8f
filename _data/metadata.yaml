@@ -59,7 +59,7 @@ nav5:
   title: Members
   item: 
    - nav: Membership
-     url: /
+     url: /membership/
    - nav: Register New Member
      url: /
    - nav: Consignmnet
