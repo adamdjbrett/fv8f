@@ -47,7 +47,7 @@ nav4:
   title: Donate
   item: 
    - nav: Adopt a Ford
-     url: /
+     url: /adopt-a-ford/
    - nav: Give
      url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
    - nav: Shop
@@ -60,6 +60,8 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
+   - nav: Become a Member
+     url: /new-member/
    - nav: Nearby Attractions
      url: /nearby-attractions/
 
@@ -128,20 +130,20 @@ store:
     background: /img/lim.webp
     text: "Featuring museum branded apparel, automobilia, books, automotive literature, archives, and much more!"
     button: Visit Store
-    url: /collections/
+    url: /shop/
     item: 
       - title: Beanie Skull Cap, Sock Hat V-8 Logo
         image: /img/shop1.webp
         price: $10
-        url: /
+        url: /shop/
       - title: Logo Magnet
         image: /img/shop2.webp
         price: $6
-        url: /
+        url: /shop/
       - title: "It's Ford for '40 Restoration Manual"
         image: /img/shop3.webp
         price: $50
-        url: /
+        url: /shop/
 
 patners:
   title: Our Patner
@@ -197,9 +199,9 @@ footer:
   - nav: Donation
     url: /faq/
   - nav: Shop
-    url: /  
+    url: /shop/
   - nav: Ebay
-    url: /  
+    url: https://www.ebay.com/str/fordv8foundation  
  address: 
   - text: "P.o. Box 284 2081 Rotunda Drive Auburn IN 46706"
  phone: 
@@ -223,7 +225,7 @@ copyrights:
  text2_url: /
 
 author: 
- name: "Betty Lyons"
- image: "/img/Betty-Lyons-Headshot-1.jpg"
- email: "aila@aila.ngo"
- url: "https://www.aila.ngo"
+ name: "Jan Jones"
+ image: "/img/"
+ email: ""
+ url: ""
