@@ -49,11 +49,11 @@ nav4:
    - nav: Adopt a Ford
      url: /
    - nav: Give
-     url: /  
+     url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
    - nav: Shop
-     url: /
+     url: https://early-ford-v-8-foundation.square.site/
    - nav: Ebay
-     url: /
+     url: https://www.ebay.com/str/fordv8foundation
 
 nav5:
   title: Members
@@ -69,11 +69,9 @@ nav6:
    - nav: About Us
      url: /about/
    - nav: Staff
-     url: /
+     url: /staff/
    - nav: Patners
      url: /patners/
-   - nav: Members
-     url: /
 
 nav7:
   nav: Contact
