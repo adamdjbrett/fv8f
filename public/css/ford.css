@@ -27,7 +27,18 @@ font-size: 24px;
 .nav-link {
   color: #EEEDFB !important;
 }
-
+.text-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.text-descs {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active,

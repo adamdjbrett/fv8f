@@ -84,4 +84,21 @@ export default function(eleventyConfig) {
     `;
   });
 
+  eleventyConfig.addShortcode("labday", function({ src1, alt1, src2, alt2, src3, alt3}) {
+    return `
+<div class="row mb-3">
+  <div class="p-3 col-md-4">
+    <img class="img-fluid" alt="${alt1}" width="100%" height="100%" src="${src1}"/>
+  </div>
+  <div class="p-3 col-md-4">
+    <img class="img-fluid" alt="${alt2}" width="100%" height="100%" src="${src2}"/>
+  </div>
+  <div class="p-3 col-md-4">
+    <img class="img-fluid" alt="${alt3}" width="100%" height="100%" src="${src3}"/>
+  </div>
+</div>
+    `;
+  });
+
+
 };
