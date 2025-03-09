@@ -55,6 +55,8 @@ membership:
   text: Become a Member
   url: /
 
+show_ford_store: true
+show_patner: true
 
 ---
 ### The Early Ford V-8 Museum

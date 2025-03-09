@@ -5,6 +5,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
 import { stripHtml } from "string-strip-html";
 import pluginFilters from "./_config/filters.js";
+import pluginCodes from "./_config/codes.js";
 
 export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
@@ -58,6 +59,7 @@ export default async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(pluginFilters);
+	eleventyConfig.addPlugin(pluginCodes);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});
 	eleventyConfig.addShortcode("currentBuildDate", () => {

@@ -116,6 +116,7 @@ event:
 
 news:
     title: News Article
+    background: "/img/fordes.webp"
     button: Explore All Article
     url: /news/
 
