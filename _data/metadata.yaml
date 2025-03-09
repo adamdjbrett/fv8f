@@ -36,7 +36,7 @@ nav2:
         url: /
       - nav: Videos
         url: /  
-      - nav: Stoies
+      - nav: Stories
         url: /
 
 nav3:

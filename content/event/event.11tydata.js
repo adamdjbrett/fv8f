@@ -2,5 +2,5 @@ export default {
 	tags: [
 		"events"
 	],
-	"layout": "post.njk",
+	"layout": "events.njk",
 };
