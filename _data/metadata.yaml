@@ -36,7 +36,7 @@ nav2:
         url: /
       - nav: Videos
         url: /  
-      - nav: Stoies
+      - nav: Stories
         url: /
 
 nav3:
@@ -49,33 +49,29 @@ nav4:
    - nav: Adopt a Ford
      url: /
    - nav: Give
-     url: /  
+     url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
    - nav: Shop
-     url: /
+     url: https://early-ford-v-8-foundation.square.site/
    - nav: Ebay
-     url: /
+     url: https://www.ebay.com/str/fordv8foundation
 
 nav5:
   title: Members
   item: 
    - nav: Membership
-     url: /
-   - nav: Register New Member
-     url: /
-   - nav: Consignmnet
-     url: /
+     url: /membership/
+   - nav: Nearby Attractions
+     url: /nearby-attractions/
 
 nav6:
   title: About
   item: 
    - nav: About Us
-     url: /
+     url: /about/
    - nav: Staff
-     url: /
+     url: /staff/
    - nav: Patners
-     url: /
-   - nav: Members
-     url: /
+     url: /patners/
 
 nav7:
   nav: Contact
@@ -116,6 +112,7 @@ event:
 
 news:
     title: News Article
+    background: "/img/fordes.webp"
     button: Explore All Article
     url: /news/
 

@@ -19,13 +19,27 @@ word-wrap:break-word;
 	white-space: nowrap;
 	width: 1px;
 }
+.article img,iframe{max-width:100%;}
+
 .footer-link {
 font-size: 24px;
 }
 .nav-link {
   color: #EEEDFB !important;
 }
-
+.img-ev {width:100%; height:220px; object-fit:cover;}
+.text-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.text-descs {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active,

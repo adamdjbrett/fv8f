@@ -2,5 +2,5 @@ export default {
 	tags: [
 		"news"
 	],
-	"layout": "post.njk",
+	"layout": "news.njk",
 };
