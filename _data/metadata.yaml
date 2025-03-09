@@ -60,8 +60,8 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
-   - nav: Consignmnet
-     url: /
+   - nav: Nearby Attractions
+     url: /nearby-attractions/
 
 nav6:
   title: About
