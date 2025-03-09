@@ -6,6 +6,8 @@ On Progress...
 
 March 09,2025
 
++ Fix URL link for news collections from `new` to be `news`
+
 #### TODO
 
 + Implement Adopt A Ford Page List & Design
@@ -38,6 +40,6 @@ March 09,2025
 + Export Content Data and Convert design for Nearby Attractions Page [https://fv8f.fyi/nearby-attractions/](https://fv8f.fyi/nearby-attractions/)
 + Implement shop page direct square site [https://fv8f.fyi/shop/](https://fv8f.fyi/shop/)
 + Implement new membership page direct square site [https://fv8f.fyi/new-member/](https://fv8f.fyi/new-member/)
-+ Implement short code to custom design german gleser article[https://fv8f.fyi/new/german-glaser/](https://fv8f.fyi/new/german-glaser/)
-+ Implement short code to custom design gnery ford article[https://fv8f.fyi/new/henry-ford-was-proud-of-his-Irish-heritage/](https://fv8f.fyi/new/henry-ford-was-proud-of-his-Irish-heritage/)
++ Implement short code to custom design german gleser article[https://fv8f.fyi/news/german-glaser/](https://fv8f.fyi/news/german-glaser/)
++ Implement short code to custom design gnery ford article[https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/](https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/)
 
