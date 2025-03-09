@@ -10,18 +10,14 @@ March 09,2025
 
 #### TODO
 
-+ Implement Adopt A Ford Page List & Design
-+ Implement Adopt A Ford Article & Design (11ty Collections)
-+ Implement Collections List
-+ Implement Collections Article (11ty Collections)
-+ Implement Galleries
++ Implement Galleries Collections
 + Implement Video Tour List
 + Implement Video Tour Article (11ty Collections)
 + Implement Education List Page with collections of lessons - videos
 + Implement Education Page for lessons collections
 + Implement Education Page for education videos collections
-+ Implement Video Staff List
-+ Implement Video Staff Detail (11ty Collections)
++ Implement Staff List
++ Implement Staff Detail (11ty Collections)
 + Implement Pagefind
 + Implement Content Hub
 + Improve Link Lists
@@ -42,4 +38,6 @@ March 09,2025
 + Implement new membership page direct square site [https://fv8f.fyi/new-member/](https://fv8f.fyi/new-member/)
 + Implement short code to custom design german gleser article[https://fv8f.fyi/news/german-glaser/](https://fv8f.fyi/news/german-glaser/)
 + Implement short code to custom design gnery ford article[https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/](https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/)
++ Export Content Data and Convert design for Adopt A Ford Page List & Design [https://fv8f.fyi/adopt-a-ford/](https://fv8f.fyi/adopt-a-ford/)
++ Export Content Data and Convert design for Adopt A Ford Article & Design (11ty Collections) [https://fv8f.fyi/adopt-a-ford/1934-ford-roadster/](https://fv8f.fyi/adopt-a-ford/1934-ford-roadster/)
 
