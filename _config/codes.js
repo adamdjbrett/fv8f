@@ -100,5 +100,21 @@ export default function(eleventyConfig) {
     `;
   });
 
+  eleventyConfig.addShortcode("abouts", function({ title,src1, alt1, url1,src2, alt2,url2, src3, alt3, url3}) {
+    return `
+<div class="row mb-3 text-center">
+  <div class="text-center p-3 col-md-12"><h3>${title}</h3></div>
+  <div class="p-3 col-md-4 zoom">
+    <a href="${url1}" class="non"><img class="img-fluid mb-3" alt="${alt1}" width="100%" height="100%" src="${src1}"/><p class="text-secondary">${alt1}</p></a>
+  </div>
+  <div class="p-3 col-md-4 zoom">
+    <a href="${url2}" class="non"><img class="img-fluid mb-3" alt="${alt2}" width="100%" height="100%" src="${src2}"/><p class="text-secondary">${alt2}</p></a>
+  </div>
+  <div class="p-3 col-md-4 zoom">
+    <a href="${url3}" class="non"><img class="img-fluid" mb-3 alt="${alt3}" width="100%" height="100%" src="${src3}"/><p class="text-secondary">${alt3}</p></a>
+  </div>
+</div>
+    `;
+  });
 
 };

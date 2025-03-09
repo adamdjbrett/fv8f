@@ -13,7 +13,7 @@ header:
   - text: "There are about 10,000 members of the Early Ford V-8 Club of America. The EFV8CA is NOT associated with our Foundation, although many members of the Foundation also belong to the V-8 Club. We'd like to see ALL the V-8 Club members become Foundation members."
  button: 
   text: Become A Members
-  url: /membership-form/
+  url: https://early-ford-v-8-foundation.square.site/
 
 article_image: /img/41-merc-fordor.webp
 

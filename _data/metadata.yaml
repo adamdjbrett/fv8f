@@ -60,8 +60,6 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
-   - nav: Register New Member
-     url: /
    - nav: Consignmnet
      url: /
 
@@ -69,11 +67,11 @@ nav6:
   title: About
   item: 
    - nav: About Us
-     url: /
+     url: /about/
    - nav: Staff
      url: /
    - nav: Patners
-     url: /
+     url: /patners/
    - nav: Members
      url: /
 
