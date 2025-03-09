@@ -1,0 +1,15 @@
+---
+title: 1933 Ford 4 Cylinder Tudor Sedan
+description: Donated in Memory of Terry Oberer
+image: /img/adopt/33-tudor-4cyl.webp
+date: 2025-03-01
+button: 
+ text: Download The Adopt-A-Ford Form
+ url: /pdf/Adopt-A-Ford.pdf
+show_event_article: true
+show_ford_store: true
+show_patner: false
+tags: 
+ - 1930s
+---
+
