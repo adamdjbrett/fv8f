@@ -1,8 +1,12 @@
-<ol reversed class="postlist">
+<div class="row">
 {% for post in postslist | reverse %}
-	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
-	</li>
+	<div class="col-md-6 p-3 zoom">
+		<a href="{{ post.url }}" class="non">
+        <img class="lazy img-fluid rounder mb-3" data-src="{{post.data.image or metadata.image}}" alt="{{post.data.title}}">
+        <h3 class="text-desc">{{ post.data.title }}</h3>
+        <p class="descs text-secondary">{{post.data.description}}</p>
+		<time class="text-dark" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	    </a>
+    </div>
 {% endfor %}
-</ol>
+</div>

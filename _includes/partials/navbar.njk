@@ -23,13 +23,13 @@
               <div class="col-md-4 col-12">
                 <h5>{{metadata.nav2.nav2_1}}</h5>
                 <ul class="list-unstyled">{% for e in collections.events | reverse |limit(4) %}
-                  <li><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
                 {% endfor %}</ul>
               </div>
               <div class="col-md-4 col-12">
                 <h5>{{metadata.nav2.nav2_2}}</h5>
                 <ul class="list-unstyled">{% for e in collections.news | reverse |limit(4) %}
-                  <li><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
                 {% endfor %}</ul>
               </div>
               <div class="col-md-4 col-12">
