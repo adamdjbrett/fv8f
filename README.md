@@ -10,13 +10,13 @@ March 10,2025
 + Add Thanks Page for redirect form
 + Add membership form
 + Add Group Ticket form
++ Import Content & Image Collections Galleries
 
 March 09,2025
 + Fix URL link for news collections from `new` to be `news`
 
 #### TODO
 
-+ Implement Galleries Collections (11ty Collections)
 + Implement Video Tour List
 + Implement Video Tour Article (11ty Collections)
 + Implement Education List Page
@@ -51,5 +51,6 @@ March 09,2025
 + Implement Thanks Page for redirect form - https://fv8f.fyi/thanks/
 + Implement Membership form - https://fv8f.fyi/membership-form/
 + Implement Group Ticket form - https://fv8f.fyi/group-ticket-form/
++ Export Content Collections Galleries - https://fv8f.fyi/collections/
 
 
