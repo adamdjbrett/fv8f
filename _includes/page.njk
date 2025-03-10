@@ -25,11 +25,11 @@ layout: base.njk
   </ol>
 </nav>
 
-<h3 class="promo_text mb-5">{{header.title}}</h3>
+<h3 class="promo_text mb-5">{{header.title or metadata.title}}</h3>
 {{content|safe}}
 
 </div>
-<div class="col-md-6 bl shadow lazy-background" data-bg="{{header.image}}"></div>
+<div class="col-md-6 bl shadow lazy-background" data-bg="{{header.image or metadata.image}}"></div>
 </div>
 </section>
 

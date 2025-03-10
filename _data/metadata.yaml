@@ -4,8 +4,8 @@ language: "en"
 locale: en_US
 image: /img/logo.png
 favicon: /img/logo.png
-#url: "http://localhost:8080"
-url: "https://fv8f.fyi"
+url: "http://localhost:8080"
+#url: "https://fv8f.fyi"
 
 
 formspree_id: 
