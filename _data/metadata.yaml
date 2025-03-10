@@ -4,8 +4,8 @@ language: "en"
 locale: en_US
 image: /img/logo.png
 favicon: /img/logo.png
-url: "http://localhost:8080"
-#url: "https://fv8f.fyi"
+#url: "http://localhost:8080"
+url: "https://fv8f.fyi"
 
 
 formspree_id: 
@@ -30,14 +30,16 @@ nav2:
   nav2_1: Events
   nav2_2: What News
   nav2_3:
-    title: Education
+    title: Others
     item: 
-      - nav: Lessons
+      - nav: Education
         url: /
-      - nav: Videos
+      - nav: Visit
         url: /  
-      - nav: Stories
+      - nav: Video Tour
         url: /
+      - nav: Nearby Attractions
+        url: /nerbary-attractions/
 
 nav3:
   nav: Collections
@@ -60,8 +62,12 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
-   - nav: Become a Member
+   - nav: New Member
      url: /new-member/
+   - nav: Become a Member
+     url: /membership-form/
+   - nav: Group Ticket Form
+     url: /group-ticket-form/
    - nav: Nearby Attractions
      url: /nearby-attractions/
 
@@ -74,6 +80,8 @@ nav6:
      url: /staff/
    - nav: Patners
      url: /patners/
+   - nav: Links
+     url: /links/
 
 nav7:
   nav: Contact

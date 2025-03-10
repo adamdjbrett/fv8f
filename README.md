@@ -4,23 +4,30 @@ On Progress...
 
 ### Change Log: 
 
-March 09,2025
+March 10,2025
++ Fix Header remove logo
++ Add Link Lists Design & Content
++ Add Thanks Page for redirect form
++ Add membership form
++ Add Group Ticket form
 
+March 09,2025
 + Fix URL link for news collections from `new` to be `news`
 
 #### TODO
 
-+ Implement Galleries Collections
++ Implement Galleries Collections (11ty Collections)
 + Implement Video Tour List
 + Implement Video Tour Article (11ty Collections)
-+ Implement Education List Page with collections of lessons - videos
-+ Implement Education Page for lessons collections
-+ Implement Education Page for education videos collections
++ Implement Education List Page
++ Implement Education Article Page (11ty Collections)
++ Implement Donate List Page
++ Implement Donate Article Page (11ty Collections)
 + Implement Staff List
 + Implement Staff Detail (11ty Collections)
++ Implement Contact Page
 + Implement Pagefind
 + Implement Content Hub
-+ Improve Link Lists
 + Try again to fix multi staff / authors
 + Improve and Fix Lighthouse
 
@@ -40,4 +47,9 @@ March 09,2025
 + Implement short code to custom design gnery ford article[https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/](https://fv8f.fyi/news/henry-ford-was-proud-of-his-Irish-heritage/)
 + Export Content Data and Convert design for Adopt A Ford Page List & Design [https://fv8f.fyi/adopt-a-ford/](https://fv8f.fyi/adopt-a-ford/)
 + Export Content Data and Convert design for Adopt A Ford Article & Design (11ty Collections) [https://fv8f.fyi/adopt-a-ford/1934-ford-roadster/](https://fv8f.fyi/adopt-a-ford/1934-ford-roadster/)
++ Implement Link Lists Design & Content - https://fv8f.fyi/links/
++ Implement Thanks Page for redirect form - https://fv8f.fyi/thanks/
++ Implement Membership form - https://fv8f.fyi/membership-form/
++ Implement Group Ticket form - https://fv8f.fyi/group-ticket-form/
+
 

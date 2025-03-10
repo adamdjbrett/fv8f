@@ -21,19 +21,21 @@
           <div class="dropdown-menu mega-menu p-3 mg">
             <div class="row">
               <div class="col-md-4 col-12">
-                <h5>{{metadata.nav2.nav2_1}}</h5>
+                <h5>{{metadata.nav2.nav2_1}}</h5><hr class="col-md-3"/>
                 <ul class="list-unstyled">{% for e in collections.events | reverse |limit(4) %}
-                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}"><small>{{e.data.title}}</small></a></li>
                 {% endfor %}</ul>
+                <p><a href="/events/" class="btn btn-primary col-12 mt-1 small btn-sm"><small>Explore Events</small></a></p>
               </div>
               <div class="col-md-4 col-12">
-                <h5>{{metadata.nav2.nav2_2}}</h5>
+                <h5>{{metadata.nav2.nav2_2}}</h5><hr class="col-md-3"/>
                 <ul class="list-unstyled">{% for e in collections.news | reverse |limit(4) %}
-                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}">{{e.data.title}}</a></li>
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}"><small>{{e.data.title}}</small></a></li>
                 {% endfor %}</ul>
+                <p><a href="/news/" class="btn btn-primary col-12 mt-1 small btn-sm"><small>Explore News</small></a></p>
               </div>
               <div class="col-md-4 col-12">
-                <h5>{{metadata.nav2.nav2_3.title}}</h5>
+                <h5>{{metadata.nav2.nav2_3.title}}</h5><hr class="col-md-3"/>
                 <ul class="list-unstyled">{% for ns in metadata.nav2.nav2_3.item %}
             <li><a class="dropdown-item small meg" href="{{ns.url}}">{{ns.nav}}</a></li>
                 {% endfor %}</ul>
