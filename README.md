@@ -7,6 +7,7 @@ On Progress...
 March 11,2025
 + Add donate collections
 + Add education collections
++ Add video tours collections
 
 March 10,2025
 + Fix Header remove logo
@@ -21,8 +22,6 @@ March 09,2025
 
 #### TODO
 
-+ Implement Video Tour List
-+ Implement Video Tour Article (11ty Collections)
 + Implement Staff List
 + Implement Staff Detail (11ty Collections)
 + Implement Contact Page
@@ -56,5 +55,7 @@ March 09,2025
 + Implement Donate Article Page https://fv8f.fyi/donate/buy-the-foot/
 + Implement Education List Page https://fv8f.fyi/education/
 + Implement Education Article Page https://fv8f.fyi/education/ipsum/
++ Implement Video Tour List https://fv8f.fyi/tours/
++ Implement Video Tour Article https://fv8f.fyi/tours/lorep
 
 

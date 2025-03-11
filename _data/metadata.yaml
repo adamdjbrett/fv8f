@@ -35,7 +35,7 @@ nav2:
       - nav: Education
         url: /education/
       - nav: Video Tour
-        url: /
+        url: /tours/
       - nav: Nearby Attractions
         url: /nerbary-attractions/
 

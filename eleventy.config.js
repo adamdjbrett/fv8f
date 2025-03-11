@@ -8,7 +8,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import { stripHtml } from "string-strip-html";
 import pluginFilters from "./_config/filters.js";
 import pluginCodes from "./_config/codes.js";
-
+import embedEverything from "eleventy-plugin-embed-everything";
 export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -50,6 +50,7 @@ export default async function(eleventyConfig) {
 			slugify: eleventyConfig.getFilter("slugify")
 		});
 	});
+    eleventyConfig.addPlugin(embedEverything);
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		slugify: (text) => {
 		  const slug = eleventyConfig.getFilter("slugify")(text);
