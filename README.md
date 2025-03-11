@@ -4,6 +4,9 @@ On Progress...
 
 ### Change Log: 
 
+March 11,2025
++ Add donate collections
+
 March 10,2025
 + Fix Header remove logo
 + Add Link Lists Design & Content
@@ -21,8 +24,6 @@ March 09,2025
 + Implement Video Tour Article (11ty Collections)
 + Implement Education List Page
 + Implement Education Article Page (11ty Collections)
-+ Implement Donate List Page
-+ Implement Donate Article Page (11ty Collections)
 + Implement Staff List
 + Implement Staff Detail (11ty Collections)
 + Implement Contact Page
@@ -52,5 +53,7 @@ March 09,2025
 + Implement Membership form - https://fv8f.fyi/membership-form/
 + Implement Group Ticket form - https://fv8f.fyi/group-ticket-form/
 + Export Content Collections Galleries - https://fv8f.fyi/collections/
++ Implement Donate List Page https://fv8f.fyi/donate/
++ Implement Donate Article Page https://fv8f.fyi/donate/buy-the-foot/
 
 
