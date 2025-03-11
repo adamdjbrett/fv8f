@@ -4,7 +4,7 @@ description: Education description here...
 layout: design/education.njk
 pagination:
   data: collections.educations
-  size: 1
+  size: 6
   reverse: true
 testdata:
  - item1
