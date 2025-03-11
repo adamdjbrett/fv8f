@@ -34,8 +34,6 @@ nav2:
     item: 
       - nav: Education
         url: /
-      - nav: Visit
-        url: /  
       - nav: Video Tour
         url: /
       - nav: Nearby Attractions
@@ -48,6 +46,8 @@ nav3:
 nav4:
   title: Donate
   item: 
+   - nav: Donations
+     url: /donate/
    - nav: Adopt a Ford
      url: /adopt-a-ford/
    - nav: Give
@@ -62,7 +62,7 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
-   - nav: New Member
+   - nav: New Member Form
      url: /new-member/
    - nav: Become a Member
      url: /membership-form/
