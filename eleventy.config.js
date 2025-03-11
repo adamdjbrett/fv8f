@@ -3,6 +3,8 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
+import markdownIt from 'markdown-it';
+import markdownItAnchor from "markdown-it-anchor";
 import { stripHtml } from "string-strip-html";
 import pluginFilters from "./_config/filters.js";
 import pluginCodes from "./_config/codes.js";
@@ -30,6 +32,30 @@ export default async function(eleventyConfig) {
 		preAttributes: { tabindex: 0 }
 	});
 
+	eleventyConfig.addPlugin(IdAttributePlugin, {
+		slugify: (text) => {
+		  const slug = eleventyConfig.getFilter("slugify")(text);
+		  return `print-${slug}`;
+		}
+	  });
+	  eleventyConfig.amendLibrary("md", mdLib => {
+		mdLib.use(markdownItAnchor, {
+			permalink: markdownItAnchor.permalink.ariaHidden({
+				placement: "after",
+				class: "header-anchor",
+				symbol: ".",
+				ariaHidden: false,
+			}),
+			level: [1,2,3,4],
+			slugify: eleventyConfig.getFilter("slugify")
+		});
+	});
+	eleventyConfig.addPlugin(IdAttributePlugin, {
+		slugify: (text) => {
+		  const slug = eleventyConfig.getFilter("slugify")(text);
+		  return `print-${slug}`;
+		}
+	  });
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
@@ -56,7 +82,15 @@ export default async function(eleventyConfig) {
 				name: "Your Name"
 			}
 		}
-	});
+	});  
+    const md = new markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  eleventyConfig.addFilter("md", function(content) {
+    return md.render(content);
+  });
 
 	eleventyConfig.addPlugin(pluginFilters);
 	eleventyConfig.addPlugin(pluginCodes);
