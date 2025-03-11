@@ -33,7 +33,7 @@ nav2:
     title: Others
     item: 
       - nav: Education
-        url: /
+        url: /education/
       - nav: Video Tour
         url: /
       - nav: Nearby Attractions
@@ -63,13 +63,11 @@ nav5:
    - nav: Membership
      url: /membership/
    - nav: New Member Form
-     url: /new-member/
-   - nav: Become a Member
      url: /membership-form/
    - nav: Group Ticket Form
      url: /group-ticket-form/
-   - nav: Nearby Attractions
-     url: /nearby-attractions/
+   - nav: Become a Member
+     url: /new-member/
 
 nav6:
   title: About

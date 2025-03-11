@@ -113,7 +113,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("getKeys", target => Object.keys(target));
 
   eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-    return (tags || []).filter(tag => !["all", "galleries", "events", "news","adopts","donations"].includes(tag));
+    return (tags || []).filter(tag => !["all", "galleries", "events", "news","adopts","donations","educations"].includes(tag));
   });
 }
 
