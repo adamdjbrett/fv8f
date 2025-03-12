@@ -4,27 +4,18 @@ layout: base.njk
 {% include "partials/header.njk" %}
 <section class="container-fluid">
 <div class="row justify-content-center">
-<div class="col-md-7 p-3 p-md-5">
-<h2>{{description or metadata.description}}</h2>
-{{content|safe}}
-</div>
-<div class="col-md-5 p-3 p-md-5">
-<img class="img-fluid lazy rounder" alt="{{title or metadata.title}}" data-src="{{image or metadata.image}}"/>
-<p><a href="{{button.url}}" class="btn btn-primary btn-lg mt-3 col-12"><i class="fab fa-paypal me-1"></i> {{button.text}}</a></p>
-</div>
-
 {% for post in pagination.items %}
-<div class="p-3 col-md-4 text-center">
+<div class="p-3 p-md-5 col-md-4">
 <a href="{{post.url}}" class="bg-light rounder shadow-sm opacity-95 row zoom non">
 <img class="img-fluid lazy img-ev" alt="{{post.data.title}}" data-src="{{post.data.image or metadata.image}}"/>
 <div class="p-3">
-<h3 class="text-dark">{{post.data.title}}</h3>
-<p class="text-secondary small"><small>{{post.data.description}}</small></p>
+<h3 class="text-desc">{{post.data.title}}</h3>
+
+<p class="text-secondary text-desc">{{post.data.description}}</p>
 </div>
 </a>
 </div>
 {% endfor %}
-
 <div class="row p-3 mt-3 mb-3">
 <div class="col-md-6 p-3">
 {% if pagination.href.previous %}<a class="btn btn-primary text-uppercase col-12 p-3" href="{{ pagination.href.previous }}">← Previous</a>{% endif %}

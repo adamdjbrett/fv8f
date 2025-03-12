@@ -1,0 +1,18 @@
+---
+title: Staffs
+description: Staffs Description here...
+layout: design/staffs.njk
+pagination:
+  data: collections.staffs
+  size: 6
+  reverse: true
+testdata:
+ - item1
+ - item2
+ - item3
+ - item4
+show_ford_store: true
+show_patner: true
+permalink: "staff/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+

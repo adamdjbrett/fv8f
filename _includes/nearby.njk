@@ -26,7 +26,7 @@ layout: base.njk
 </nav>
 </div>
 
-{% for n in nearby %}
+{% for n in metadata.nearby %}
 <div class="col-md-4 p-3 zoom">
 <img class="img-fluid lazy img-ev mb-3" width="100%" height="100%" alt="{{n.title}}" data-src="{{n.image or metadata.image}}"/>
 <div class="p-3">

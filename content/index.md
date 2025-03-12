@@ -55,6 +55,7 @@ membership:
   text: Become a Member
   url: /
 
+show_nearby: true
 show_ford_store: true
 show_patner: true
 
