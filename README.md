@@ -4,6 +4,13 @@ On Progress...
 
 ### Change Log: 
 
+March 12,2025
++ Add Nearby Widget on all pages
++ Memorial Fund Change Themes
++ Brick Campaign Change Themes
++ Testing Staff Data - not finished yet.
++ Testing Staff Data List - not finished yet.
+
 March 11,2025
 + Add donate collections
 + Add education collections
