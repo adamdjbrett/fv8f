@@ -1,4 +1,5 @@
 ---
+layout: donate2.njk
 title: Memorial Fund
 description: A Lasting Way to Remember Someone You Care About
 date: 2023-07-28
@@ -8,6 +9,7 @@ button:
  url: /pdf/MemorialFund-Form.pdf
 show_faq: false
 show_event_article: true
+show_nearby: true
 show_ford_store: true
 show_patner: true
 ---
