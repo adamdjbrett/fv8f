@@ -6,8 +6,8 @@ On Progress...
 
 March 12,2025
 + Add Nearby Widget on all pages
-+ Memorial Fund Change Themes
-+ Brick Campaign Change Themes
++ Memorial Fund Change Themes - https://fv8f.fyi//donate/memorial-fund/
++ Brick Campaign Change Themes - https://fv8f.fyi/donate/brick-campaign/
 + Testing Staff Data - not finished yet.
 + Testing Staff Data List - not finished yet.
 
