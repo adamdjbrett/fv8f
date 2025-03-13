@@ -15,7 +15,7 @@
 {% if n.phone %}<li>{{n.phone}}</li>{% endif %}
 {% if n.email %}<li><a href="mailto:{{n.email}}">{{n.email}}</a></li>{% endif %}
 </small></ul>
-<p><a href="{{n.url}}" class="btn btn-primary col-12">Learn More</a></p>
+<p><a href="{{n.url}}" title="{{n.title}}" class="btn btn-primary col-12">Learn More</a></p>
 </div>
 </div>
 {% endfor %}
