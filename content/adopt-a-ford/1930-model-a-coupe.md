@@ -9,6 +9,7 @@ button:
 show_event_article: true
 show_ford_store: true
 show_patner: false
+show_nearby: false
 tags: 
  - 1930s
 ---
