@@ -69,7 +69,7 @@
               <div class="col-md-6 col-12">
                 <h5>{{metadata.nav4.nav4_2.title}}</h5><hr class="col-md-3"/>
                 <ul class="list-unstyled">{% for e in metadata.museum_display|limit(4) %}
-                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}"><small>{{e.description}}</small></a></li>
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.link}}"><small>{{e.description}}</small></a></li>
                 {% endfor %}</ul>
                 <p><a href="{{metadata.nav4.nav4_2.link}}" class="btn btn-primary col-12 mt-1 small btn-sm"><small>{{metadata.nav4.nav4_2.button}}</small></a></p>
               </div>

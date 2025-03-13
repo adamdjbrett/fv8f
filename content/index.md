@@ -21,16 +21,16 @@ main_article:
  info:
   - text: Our Collections
     icon: fa-solid fa-car
-    url: /
+    url: /collections/
   - text: Plan your visit
     icon: fa-solid fa-calendar-check
-    url: /
+    url: /contact/
   - text: Make Donation
     icon: fa-solid fa-hand-holding-heart
-    url: /
+    url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
   - text: Adopt a Ford
     icon: fa-solid fa-car-side
-    url: /
+    url: /adopt-a-ford/
 
 ticket:
  title: Tickets
