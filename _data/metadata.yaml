@@ -44,18 +44,13 @@ nav3:
   url: /collections/
 
 nav4:
-  title: Donate
-  item: 
-   - nav: Donations
-     url: /donate/
-   - nav: Adopt a Ford
-     url: /adopt-a-ford/
-   - nav: Give
-     url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
-   - nav: Shop
-     url: https://early-ford-v-8-foundation.square.site/
-   - nav: Ebay
-     url: https://www.ebay.com/str/fordv8foundation
+  title: Support
+  nav4_1:
+   title: Donate
+   button: Visit Donate Page
+  nav4_2:
+   title: Museum Select Motors
+   button: Visit Museum Select Motors
 
 nav5:
   title: Members

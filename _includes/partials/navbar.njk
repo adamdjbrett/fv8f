@@ -44,17 +44,37 @@
           </div>
         </li>
 
+
+
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="{{metadata.nav3.url}}">{{metadata.nav3.nav}}</a>
         </li>
 
-  <li class="nav-item dropdown">
+
+
+
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{metadata.nav4.title}}
           </a>
-          <ul class="dropdown-menu">{% for ns in metadata.nav4.item %}
-            <li><a class="dropdown-item" href="{{ns.url}}">{{ns.nav}}</a></li>
-          {% endfor %}</ul>
+          <div class="dropdown-menu mega-menu p-3 mg">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <h5>{{metadata.nav4.nav4_1.title}}</h5><hr class="col-md-3"/>
+                <ul class="list-unstyled">{% for e in collections.donations | reverse %}
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}"><small>{{e.data.title}}</small></a></li>
+                {% endfor %}</ul>
+                <p><a href="/donate/" class="btn btn-primary col-12 mt-1 small btn-sm"><small>{{metadata.nav4.nav4_1.button}}</small></a></p>
+              </div>
+              <div class="col-md-6 col-12">
+                <h5>{{metadata.nav4.nav4_2.title}}</h5><hr class="col-md-3"/>
+                <ul class="list-unstyled">{% for e in collections.galleries | reverse |limit(4) %}
+                  <li class="text-desc"><a class="dropdown-item small meg" href="{{e.url}}"><small>{{e.data.title}}</small></a></li>
+                {% endfor %}</ul>
+                <p><a href="/collections/" class="btn btn-primary col-12 mt-1 small btn-sm"><small>{{metadata.nav4.nav4_2.button}}</small></a></p>
+              </div>
+            </div>
+          </div>
         </li>
 
   <li class="nav-item dropdown">

@@ -5,6 +5,8 @@ On Progress...
 ### Change Log: 
 
 March 13,2025
++ Fix Navbar for support - change from `donate` to be `support` menu + fecth all data from collections
++ Update navbar metadata integration with new fix nav support menu
 + Change About Design
 + Add Donate Button
 + Implement Contact Page
