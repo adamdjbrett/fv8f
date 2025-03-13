@@ -15,8 +15,11 @@ metasocial:
 nav_logo: "/img/logo.png"
 
 nav_button: 
- title: Buy Ticket
- url: 
+ title: Tickets
+ url: /
+nav_donate: 
+ title: Donate
+ url: /https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
 
 nav1:
   nav: Home
@@ -59,8 +62,8 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
-   - nav: Become a Member
-     url: /pdf/Membership App.pdf
+#   - nav: Become a Member
+#     url: /pdf/Membership App.pdf
    - nav: New Member Form
      url: /membership-form/
    - nav: Group Ticket Form

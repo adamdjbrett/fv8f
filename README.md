@@ -5,6 +5,8 @@ On Progress...
 ### Change Log: 
 
 March 13,2025
++ Change About Design
++ Add Donate Button
 + Implement Contact Page
 + Implement Staff Data
 + Implement Staff Data List

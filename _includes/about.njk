@@ -16,7 +16,7 @@ layout: base.njk
 <section class="container-fluid trucks lazy-background" data-bg="{{metadata.news.background}}">
 <div class="row mt-5 mb-5">
 
-<div class="col-md-6 p-3 p-md-5">
+<div class="col-md-10 mx-auto p-3 p-md-5">
 
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -25,11 +25,11 @@ layout: base.njk
   </ol>
 </nav>
 
-<h3 class="promo_text mb-5">{{title}}</h3>
+<h3 class="promo_text mb-3">{{title}}</h3>
+<img class="img-fluid mb-5 img-shop lazy" alt="{{title}}" width="100%" height="100%" data-src="{{image}}">
 {{content|safe}}
 <p><a href="{{button.url}}" class="btn btn-primary">{{button.text}}</a></p>
 </div>
-<div class="col-md-6 bl shadow lazy-background" data-bg="{{image}}"></div>
 </div>
 </section>
 
