@@ -1,10 +1,10 @@
 ---
+layout: design/staffs.njk
 title: Staffs
 description: Staffs Description here...
-layout: design/staffs.njk
 pagination:
   data: collections.staffs
-  size: 6
+  size: 9
   reverse: true
 testdata:
  - item1
@@ -13,6 +13,7 @@ testdata:
  - item4
 show_ford_store: true
 show_patner: true
+show_nearby: true
 permalink: "staff/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 
