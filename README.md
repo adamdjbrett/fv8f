@@ -4,6 +4,12 @@ On Progress...
 
 ### Change Log: 
 
+March 13,2025
++ Implement Contact Page
++ Implement Staff Data
++ Implement Staff Data List
++ Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership App.pdf
+
 March 12,2025
 + Add Nearby Widget on all pages
 + Memorial Fund Change Themes - https://fv8f.fyi//donate/memorial-fund/
@@ -29,11 +35,9 @@ March 09,2025
 
 #### TODO
 
-+ Implement Staff List
-+ Implement Staff Detail (11ty Collections)
-+ Implement Contact Page
 + Implement Pagefind
 + Implement Content Hub
++ Change Design for Collections
 + Try again to fix multi staff / authors
 + Improve and Fix Lighthouse
 
@@ -64,5 +68,9 @@ March 09,2025
 + Implement Education Article Page https://fv8f.fyi/education/ipsum/
 + Implement Video Tour List https://fv8f.fyi/tours/
 + Implement Video Tour Article https://fv8f.fyi/tours/lorep
++ Implement Staff List https://fv8f.fyi/staff/
++ Implement Staff Detail https://fv8f.fyi/staff/greg-grim/
++ Implement Contact Page https://fv8f.fyi/contact/
++ Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership App.pdf
 
 

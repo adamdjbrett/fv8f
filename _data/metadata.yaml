@@ -7,9 +7,6 @@ favicon: /img/logo.png
 #url: "http://localhost:8080"
 url: "https://fv8f.fyi"
 
-
-formspree_id: 
-
 metasocial: 
  - facebook: "https://www.facebook.com/earlyfordv8museum"
  - twitteruser: "@user"
@@ -62,12 +59,14 @@ nav5:
   item: 
    - nav: Membership
      url: /membership/
+   - nav: Become a Member
+     url: /pdf/Membership App.pdf
    - nav: New Member Form
      url: /membership-form/
    - nav: Group Ticket Form
      url: /group-ticket-form/
-   - nav: Become a Member
-     url: /new-member/
+#   - nav: Become a Member
+#     url: /new-member/
 
 nav6:
   title: About
