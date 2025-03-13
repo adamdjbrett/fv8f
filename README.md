@@ -5,6 +5,11 @@ On Progress...
 ### Change Log: 
 
 March 13,2025
++ Finish Import all data
++ Implement Pagefind
++ Implement Widget Museum Select Motors
++ Implement Widget Show All Post for museum select motors
++ Add new Museum Select Motors list and detail page - with per sub such 1930s , 1940s
 + Fix Navbar for support - change from `donate` to be `support` menu + fecth all data from collections
 + Update navbar metadata integration with new fix nav support menu
 + Change About Design
@@ -37,24 +42,23 @@ March 10,2025
 March 09,2025
 + Fix URL link for news collections from `new` to be `news`
 
+---
+
 #### TODO
 
-+ Implement Pagefind
 + Implement Content Hub
-+ Change Design for Collections
-+ Try again to fix multi staff / authors
 + Improve and Fix Lighthouse
 
 ---
 
 #### DONE
 
-+ Export Content Data and Convert design for News Article Page and List [https://fv8f.fyi/news/](https://fv8f.fyi/news/)
-+ Export Content Data and Convert design for Event Article Page and List [https://fv8f.fyi/events/](https://fv8f.fyi/events/)
-+ Export Content Data and Convert design for Membership Page [https://fv8f.fyi/membership/](https://fv8f.fyi/membership/)
-+ Export Content Data and Convert design for About Page [https://fv8f.fyi/about/](https://fv8f.fyi/about/)
-+ Export Content Data and Convert design for Patners Page [https://fv8f.fyi/patners/](https://fv8f.fyi/patners/)
-+ Export Content Data and Convert design for Nearby Attractions Page [https://fv8f.fyi/nearby-attractions/](https://fv8f.fyi/nearby-attractions/)
++ Import Content Data and Convert design for News Article Page and List [https://fv8f.fyi/news/](https://fv8f.fyi/news/)
++ Import Content Data and Convert design for Event Article Page and List [https://fv8f.fyi/events/](https://fv8f.fyi/events/)
++ Import Content Data and Convert design for Membership Page [https://fv8f.fyi/membership/](https://fv8f.fyi/membership/)
++ Import Content Data and Convert design for About Page [https://fv8f.fyi/about/](https://fv8f.fyi/about/)
++ Import Content Data and Convert design for Patners Page [https://fv8f.fyi/patners/](https://fv8f.fyi/patners/)
++ Import Content Data and Convert design for Nearby Attractions Page [https://fv8f.fyi/nearby-attractions/](https://fv8f.fyi/nearby-attractions/)
 + Implement shop page direct square site [https://fv8f.fyi/shop/](https://fv8f.fyi/shop/)
 + Implement new membership page direct square site [https://fv8f.fyi/new-member/](https://fv8f.fyi/new-member/)
 + Implement short code to custom design german gleser article[https://fv8f.fyi/news/german-glaser/](https://fv8f.fyi/news/german-glaser/)
@@ -76,5 +80,9 @@ March 09,2025
 + Implement Staff Detail https://fv8f.fyi/staff/greg-grim/
 + Implement Contact Page https://fv8f.fyi/contact/
 + Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership App.pdf
++ Implement Page Find
++ Implement Museum Select Motors https://fv8f.fyi/museum-select-motors/
++ Implement Museum Select Motors Categories https://fv8f.fyi/museum-select-motors/1930/
++ Implement Museum Select Motors Categories Article https://fv8f.fyi/museum-select-motors/1940/1941-Custom-School-Bus/
 
 

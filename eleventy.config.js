@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
+import { execSync } from 'child_process';
 import markdownIt from 'markdown-it';
 import markdownItAnchor from "markdown-it-anchor";
 import { stripHtml } from "string-strip-html";
@@ -38,6 +39,9 @@ export default async function(eleventyConfig) {
 		  return `print-${slug}`;
 		}
 	  });
+    eleventyConfig.on('eleventy.after', () => {
+		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+	  })
 	  eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({

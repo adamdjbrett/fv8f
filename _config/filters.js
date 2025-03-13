@@ -39,7 +39,7 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "news", "educations" , "tours","donations"].indexOf(tag) === -1);
+		return (tags || []).filter(tag => ["all", "news", "educations" , "tours","donations" , "motors","fordthree","fordfour","fordfive","fordv"].indexOf(tag) === -1);
 	});
 
 };

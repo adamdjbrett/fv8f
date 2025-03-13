@@ -51,6 +51,7 @@ nav4:
   nav4_2:
    title: Museum Select Motors
    button: Visit Museum Select Motors
+   link: /museum-select-motors/
 
 nav5:
   title: Members
@@ -162,6 +163,33 @@ news:
     background: "/img/fordes.webp"
     button: Explore All Article
     url: /news/
+
+motors:
+    ford1930: Ford 1930 Motors
+    ford1940: Ford 1940 Motors
+    ford1950: Ford 1950 Motors
+    others: Others Motors
+    title: Museum Select Motors
+    url: /museum-select-motors/
+
+
+museum_display: 
+ - title: Ford 1930s
+   description: Ford 1930s
+   image: /img/collections/1938.webp
+   link: /museum-select-motors/1930/
+ - title: Ford 1940s
+   description: Ford 1940s
+   image: /img/collections/237130222_6122516417822747_7460490696439431887_n.webp
+   link: /museum-select-motors/1940/
+ - title: Ford 1950s
+   description: Ford 1950s
+   image: /img/collections/1951-Station-Wagon.webp
+   link: /museum-select-motors/1950/
+ - title: Other Ford
+   description: Others Ford
+   image: /img/collections/1940-Ford-V8-60-Engine-Marine-Version-A001.webp
+   link: /museum-select-motors/others/
 
 collections:
     title: Our Collections
