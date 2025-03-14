@@ -2,6 +2,9 @@
 title: "1936 Ford Tudor Deluxe Touring Sedan"
 description: 
 image: /img/collections/Early-Ford-V8-Foundation-Museum-A089.webp
+button: 
+ text: Purchase
+ url: /
 date: 2025-03-10
 show_event_article: true
 show_ford_store: true

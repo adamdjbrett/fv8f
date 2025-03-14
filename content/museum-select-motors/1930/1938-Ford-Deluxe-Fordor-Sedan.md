@@ -2,6 +2,9 @@
 title: 1938 Ford Deluxe Fordor Sedan
 description: 
 image: /img/collections/1938.webp
+button: 
+ text: Purchase
+ url: /
 date: 2025-03-10
 show_event_article: true
 show_ford_store: true

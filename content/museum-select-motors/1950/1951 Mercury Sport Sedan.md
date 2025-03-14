@@ -2,6 +2,9 @@
 title: 1951 Mercury Sport Sedan
 description: 1951 Mercury Sport Sedan from Early Ford V-8 Foundation Museums
 image: /img/collections/43167775_2330883413652752_2541297179419475968_n.webp
+button: 
+ text: Purchase
+ url: /
 date: 2025-03-08
 show_event_article: true
 show_ford_store: true
