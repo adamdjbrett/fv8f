@@ -10,6 +10,15 @@ font-family: "Lato", serif;
 .blog-post-preview {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
+.css-8zenuf-AppHeader-css {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: auto 70%;
+  background-origin: padding-box;
+  background-clip: padding-box;
+/*  padding-left: 60px; */
+}
 
 .hero {
   background-size: cover;

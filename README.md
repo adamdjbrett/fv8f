@@ -49,6 +49,10 @@ https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%
 
 ### CHANGELOG: 
 
+March 15,2025
++ Fix Staff Page
++ Update Content Hub
+
 March 14,2025
 + Integration Content Hub
 + Implement Header Anchor
