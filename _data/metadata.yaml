@@ -49,7 +49,7 @@ nav4:
   title: Support
   nav4_1:
    title: Donate
-   button: Visit Donate Page
+   button: Donoate Now
   nav4_2:
    title: Museum Select Motors
    button: Visit Museum Select Motors
@@ -295,7 +295,7 @@ footer:
     url: https://www.instagram.com/earlyfordv8museum/
 
 copyrights: 
- text1: Copyrights 2025 
+ text1: Copyright 2025 
  text2: Early Ford v8 Museum
  text2_url: /
 
