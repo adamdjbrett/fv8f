@@ -35,6 +35,7 @@ faq:
       Storage Vault - Storage for the museums growing collection, $200,000. You can sponsor a square foot or a square yard within this space to help the Museum reach its goal.
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 ### [Ways to Donate]({{page.url}})

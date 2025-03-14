@@ -252,11 +252,11 @@ a,.css-b18hzq-AppHeaderNavLink-AppHeaderButton-button-button-buttonActive-button
     content: '\f015';
   }
   
-  /* Static Page icon */
+  /* 
   [data-testid="pages"] .e1jeq5dr1::before {
     content: '\f15c';
   }
-  
+  */
   /* FAQ Pages icon */
   [data-testid="faqs"] .e1jeq5dr1::before {
     content: '\f059';
@@ -566,7 +566,7 @@ a,.css-b18hzq-AppHeaderNavLink-AppHeaderButton-button-button-buttonActive-button
 
 .css-rdgl1o-IconWrapper-DecapLogoIcon::before {
     content: "";
-    background-image: url('https://wsrv.nl/?url=https://aila.social/img/apple-touch-icon.png&w=80&h=80&output=webp');
+    background-image: url('logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -582,7 +582,7 @@ a,.css-b18hzq-AppHeaderNavLink-AppHeaderButton-button-button-buttonActive-button
 
 
 .css-rdgl1o-IconWrapper-DecapLogoIcon::after {
-    content: "AILA CMS";
+    content: "Early Ford V-8 Foundation Museums CMS";
     white-space: pre-line;
     display: block;
     width: 100%;

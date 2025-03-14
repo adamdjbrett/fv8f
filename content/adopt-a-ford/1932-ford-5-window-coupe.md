@@ -7,6 +7,7 @@ button:
  text: Download The Adopt-A-Ford Form
  url: /pdf/Adopt-A-Ford.pdf
 show_event_article: true
+show_motors: false
 show_ford_store: true
 show_patner: false
 tags: 

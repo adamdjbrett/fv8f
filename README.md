@@ -15,6 +15,7 @@ Desktop Peform
 ### Change Log: 
 
 March 14,2025
++ Integration Content Hub
 + Implement Header Anchor
 + Optimazation Lighthouse
 + Fix Pagination on all pages and collections
@@ -62,7 +63,7 @@ March 09,2025
 
 #### TODO
 
-+ Implement Content Hub
++ Complete All
 
 ---
 
@@ -101,5 +102,6 @@ March 09,2025
 + Implement Museum Select Motors Categories https://fv8f.fyi/museum-select-motors/1930/
 + Implement Museum Select Motors Categories Article https://fv8f.fyi/museum-select-motors/1940/1941-Custom-School-Bus/
 + Add purchase button on museum select motots
++ Implement Content Hub
 
 

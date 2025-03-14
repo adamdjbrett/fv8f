@@ -9,6 +9,7 @@ button:
 show_event_article: true
 show_ford_store: true
 show_patner: true
+show_motors: true
 permalink: /about/
 ---
 

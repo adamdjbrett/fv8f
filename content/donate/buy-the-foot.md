@@ -6,6 +6,7 @@ image: /img/logo.png
 show_faq: false
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 {% buttonfoot 
