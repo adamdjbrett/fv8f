@@ -20,6 +20,7 @@ Desktop Peformance
 5. in menubar change News to show as "News & Events"
 6. Make copyright automatically update and display the year ```date: "%Y"```
 7. on https://fv8f.fyi/events/ add a button under "Museum Select Motors" that takes visitors to: /museum-select-motors/
+    1. do the same on https://fv8f.fyi/ 
 8. add the Ford V8 Foundation logo to /admin/
 9. Authors
     1. Also can you setup /authors/. Authors in the collection should be John Hoham, Jan Jones, fv8f
@@ -27,6 +28,22 @@ Desktop Peformance
     3. On posts and events the author name and avatar should appear
 10. Staff
     1. on /staff/ please make sure that the image that is showing here is a 150x150 pixel thumbnail.
+11. in metadata.yaml fix the spelling of ```patners:``` to ```partners:```
+12. In footer with the social media icons include icon and google maps link https://maps.app.goo.gl/HDNvcBa76x4Nc7R36 and Apple Maps link
+```
+https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%20United%20States&auid=2400004346339794474&ll=41.334899,-85.089519&lsp=9902&q=Early%20Ford%20V-8%20Foundation%20%26%20Museum&t=m
+```
+13. on /contact/ also add apple maps link
+14. on /memorial-fund/ line 19 add hyper link to the form.
+15. Museum Select Motors Changes
+    1.  import all data and images for 1936 Ford Deluxe Cabriolet add a buy now button. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1936-ford-deluxe-cabriolet/315?cp=true&sa=false&sbp=false&q=false&category_id=20)
+    2. import all data and images and add a buy now button for 1932 Ford Tutor Sedan. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1932FordTudorSedan/316?cp=true&sa=false&sbp=false&q=false&category_id=20)
+    3. import all data and images and add a buy now button for 1949 Ford Custom Tudor Sedan. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1949-ford-custom-tudor-sedan/283?cp=true&sa=false&sbp=false&q=false&category_id=20)
+    4. import all data and images and add a buy now button for 1951 Ford Custom Victoria 1A-60. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1951-ford-custom-victoria-1a-60/314?cp=true&sa=false&sbp=false&q=false&category_id=20)
+    5. add photo gallery slider with popup full view to each vechicle. Make this something that can be set via front matter.
+16.     
+
+
 
 ---
 

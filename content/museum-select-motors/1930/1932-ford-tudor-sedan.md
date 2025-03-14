@@ -1,0 +1,20 @@
+---
+title: "1932 Ford Deluxe Tudor Sedan"
+description: Early Ford V-8 Foundation Museum 1932 Ford Deluxe Tudor Sedan
+image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
+button: 
+ text: Purchase
+ url: "https://early-ford-v-8-foundation.square.site/product/1932FordTudorSedan/316?cp=true&sa=false&sbp=false&q=false&category_id=20"
+date: 2025-03-10
+show_event_article: true
+show_ford_store: true
+show_patner: false
+show_nearby: false
+show_motors: true
+show_post: true
+tags: 
+ - ford1930
+---
+## Description
+
+Survivor car 1932 Deluxe Tudor Sedan. Wheels, body molding and drip rails have been painted a light green color. Other than that it pretty original. Performance maintenance has kept the car running till today. Runs, drives and stops. Call for more details, or to schedule an appointment to see it. 260-927-8022

@@ -1,4 +1,4 @@
-title: "Early Ford V-8 Foundation Museums"
+title: "Early Ford V-8 Foundation Museum"
 description: "Preserving Ford Motor History"
 language: "en"
 locale: en_US
@@ -115,12 +115,12 @@ open_hours:
 
 event: 
     title: Upcoming Event
-    button: Explore All Event
+    button: Explore All Events
     url: /events/
 
 nearby_header: 
     title: Nearby Attractions
-    button: Explore All Nearby
+    button: Explore All Nearby Attractions
     url: /nearby-attractions/
 
 nearby:
@@ -163,7 +163,7 @@ nearby:
 news:
     title: News Article
     background: "/img/fordes.webp"
-    button: Explore All Article
+    button: Explore All Articles
     url: /news/
 
 motors:
@@ -189,7 +189,7 @@ museum_display:
    image: /img/collections/1951-Station-Wagon.webp
    link: /museum-select-motors/1950/
  - title: Other Ford
-   description: Others Ford
+   description: Other Ford
    image: /img/collections/1940-Ford-V8-60-Engine-Marine-Version-A001.webp
    link: /museum-select-motors/others/
 
@@ -221,7 +221,7 @@ store:
         url: /shop/
 
 patners:
-  title: Our Patner
+  title: Our Partners
   item: 
    - title: Heny Ford
      image: /img/henryford.jpeg
@@ -278,7 +278,7 @@ footer:
   - nav: Ebay
     url: https://www.ebay.com/str/fordv8foundation  
  address: 
-  - text: "P.o. Box 284 2081 Rotunda Drive Auburn IN 46706"
+  - text: "P.O. Box 284, 2081 Rotunda Drive, Auburn, IN 46706"
  phone: 
   text: "Phone"
   number: "(260) 927-8022"
