@@ -12,7 +12,7 @@ Desktop Peform
 
 ---
 
-### Change Log: 
+### CHANGELOG: 
 
 March 14,2025
 + Integration Content Hub
@@ -34,7 +34,7 @@ March 13,2025
 + Implement Contact Page
 + Implement Staff Data
 + Implement Staff Data List
-+ Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership App.pdf
++ Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership-App.pdf
 
 March 12,2025
 + Add Nearby Widget on all pages

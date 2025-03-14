@@ -12,7 +12,7 @@ header:
   - text: "To help us achieve the funding we need to expand and grow, we need a strong membership base. The larger an organization we are, the easier it will be to attract corporate sponsorship and funding."
   - text: "There are about 10,000 members of the Early Ford V-8 Club of America. The EFV8CA is NOT associated with our Foundation, although many members of the Foundation also belong to the V-8 Club. We'd like to see ALL the V-8 Club members become Foundation members."
  button: 
-  text: Become A Members
+  text: Become A Member
   url: /new-member/
 
 article_image: /img/41-merc-fordor.webp
