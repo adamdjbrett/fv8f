@@ -9,7 +9,7 @@ layout: base.njk
      {{metadata.title}}
     </p>
     <h1>
-    <a href="{{metadata.url}}" class="text-white">{{title}}</a>
+    <a href="{{page.url or metadata.url}}" class="text-white">{{title}}</a>
     </h1>
   </div>
 </div>
