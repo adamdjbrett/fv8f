@@ -2,8 +2,8 @@ title: "Early Ford V-8 Foundation Museums"
 description: "Preserving Ford Motor History"
 language: "en"
 locale: en_US
-image: /img/logot.png
-favicon: /img/logo-output.png
+image: /img/logofull.webp
+favicon: /img/logofull.webp
 #url: "http://localhost:8080"
 url: "https://fv8f.fyi"
 
@@ -12,7 +12,7 @@ metasocial:
  - twitteruser: "@user"
  - twitter: "https://x.com/user"
 
-nav_logo: "/img/logo-output.png"
+nav_logo: "/img/logofull.webp"
 nav_button: 
  title: Tickets
  url: /
@@ -263,7 +263,7 @@ patners:
 
 footer:
  title: "Ford V8 Foundation"
- logo: "/img/logo-output.png"
+ logo: "/img/logofull.webp"
  item: 
   - nav: Home
     url: /
