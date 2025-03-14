@@ -127,6 +127,9 @@ March 09,2025
 + Contact Page to update contact page
 + Donate Page Setup to config your donate list page
 + Donate Article Pages to update donate collections page article
+    - Support with 2 layouts - donate and donate2 , select layout to update your donate page
+    - donate layout example https://fv8f.fyi/donate/planned-giving/
+    - donate2 layout example https://fv8f.fyi/donate/brick-campaign/
 + Education Page Setup to update education main page
 + Education Posts to create new education post article
 + Event Setup Page to update main event page
