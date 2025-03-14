@@ -37,7 +37,9 @@ layout: base.njk
 <div class="col-md-5 p-3 p-md-5">
 <h2>{{description or title}}</h2>
 {{content|safe}}
-
+{% if button.url %}
+<p><a href="{{button.url}}" class="btn btn-primary">{{button.text}}</a></p>
+{% endif %}
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style mt-5" 
 data-a2a-url="{{metadata.url}}{{page.url}}" data-a2a-title="{{title}}">
     <a class="a2a_button_facebook"></a>
@@ -54,37 +56,27 @@ data-a2a-url="{{metadata.url}}{{page.url}}" data-a2a-title="{{title}}">
 {%- set previousPost = collections.fordv | getPreviousCollectionItem %}
 {%- set nextPost = collections.fordv | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
-{%- if previousPost %}
 <section class="container-fluid">
 <div class="row mt-5 mb-5">
-<a href="{{ previousPost.url }}" class="col-md-6 br shadow lazy-background" data-bg="{{ previousPost.data.image or metadata.image }}"></a>
-<div class="col-md-6 p-3 p-md-5">
+<div class="col-md-6 p-3 p-md-5">{%- if previousPost %}
 <h3 class="promo_text mb-3 text-descs"><a href="{{ previousPost.url }}">
 {{ previousPost.data.title }}
 </a></h3>
 <p><a href="{{ previousPost.url }}">
 ← Previous
-</a></p>
+</a></p>{% endif %}
 </div>
-</div>
-</section>
-{% endif %}
-
-{%- if nextPost %}
-<section class="container-fluid">
-<div class="row mt-5 mb-5">
-<div class="col-md-6 p-3 p-md-5">
+<div class="col-md-6 p-3 p-md-5 text-end">{%- if nextPost %}
 <h3 class="promo_text mb-3  text-descs"><a href="{{ nextPost.url }}">
 {{ nextPost.data.title }}
 </a></h3>
 <p><a href="{{ nextPost.url }}">
 Next →
 </a></p>
+{% endif %}
 </div>
-<a href="{{ nextPost.url }}" class="col-md-6 bl shadow lazy-background" data-bg="{{ nextPost.data.image or metadata.image }}"></a>
 </div>
 </section>
-{% endif %}
 {%- endif %}
 {%- endif %}
 </div>
