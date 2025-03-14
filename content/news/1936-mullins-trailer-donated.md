@@ -6,6 +6,7 @@ image: /img/news/Bob-Judy-Parmalee-Mullins-web.webp
 show_event_article: true
 show_ford_store: true
 show_patner: true
+show_motors: true
 tags: 
  - 1936 mullins trailer 
  - mullins

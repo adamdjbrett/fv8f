@@ -11,6 +11,7 @@ show_faq: false
 show_event_article: true
 show_nearby: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 The Early Ford V-8 Foundation Museum has created a BRICK CAMPAIGN,

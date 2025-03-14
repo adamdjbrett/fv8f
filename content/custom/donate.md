@@ -17,6 +17,7 @@ button:
 image: /img/Early-Ford-V8-Foundation-Museum-A043.webp
 show_ford_store: true
 show_patner: true
+show_motors: true
 permalink: "donate/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 To make a donation with a check, make the check payable to the Early Ford V-8 Foundation Museum, P.O. Box 284, Auburn, IN 46706. Please indicate which fund you'd like your donation to go to - General Fund or Building Fund. If you wish to donate using your credit card, but not online, please call us at [260-927-8022](tel:2609278022).  

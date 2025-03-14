@@ -5,6 +5,7 @@ date: 2022-02-09
 image: /img/news/34phaeton-hertz-web.webp
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 

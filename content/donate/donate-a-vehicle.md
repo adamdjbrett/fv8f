@@ -26,6 +26,7 @@ button:
  url: /pdf/VehicleDonationForm.pdf
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 The Early Ford V-8 Foundation Museum is an IRS designated 501c3 not-for-profit organization. It exists to provide public space in which some of the legacy of Henry Ford can be appreciated and preserved. The Early Ford V-8 Foundation Museum is managed and supported by its members, trustees, visitors, and generous supporters. If you are interested in donating a vehicle to the Early Ford V-8 Foundation Museum here is a simple guide to help you through the process.

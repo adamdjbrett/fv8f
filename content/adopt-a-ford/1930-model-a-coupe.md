@@ -8,6 +8,7 @@ button:
  url: /pdf/Adopt-A-Ford.pdf
 show_event_article: true
 show_ford_store: true
+show_motors: false
 show_patner: false
 show_nearby: false
 tags: 

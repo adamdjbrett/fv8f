@@ -5,6 +5,7 @@ date: 2022-02-02
 image: /img/news/IMG_8172.webp
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 tags: 
  - 1937 ford deluxe

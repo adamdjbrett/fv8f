@@ -15,6 +15,7 @@ venue: "Central National Meet Website Here!"
 map: "https://maps.google.com/maps?ll=41.335217,-85.089543&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=15278397035761174731"
 show_event_article: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 

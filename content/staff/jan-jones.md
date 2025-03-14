@@ -15,7 +15,7 @@ social:
    url: https://linkedin.com
 button:
  title: Sent Jan Message
- url: "nate@fordv8foundation.org"
+ url: "jan@fordv8foundation.org"
 show_event_article: true
 show_ford_store: true
 show_patner: true

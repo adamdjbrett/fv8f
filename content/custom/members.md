@@ -20,6 +20,7 @@ article_image: /img/41-merc-fordor.webp
 show_event_article: true
 show_ford_store: true
 show_patner: true
+show_motors: true
 ---
 ### [Save Early Ford V-8 history.]({{page.url}})
 

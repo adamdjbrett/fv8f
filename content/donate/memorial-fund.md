@@ -11,6 +11,7 @@ show_faq: false
 show_event_article: true
 show_nearby: true
 show_ford_store: true
+show_motors: true
 show_patner: true
 ---
 A contribution to the EARLY FORD V-8 FOUNDATION MUSEUM MEMORIAL FUND is a most appropriate way to express sentiment at the loss of a friend or loved one. A notification is sent to the family of the deceased. What better way to acknowledge a loss than to help build a memorial for the collection, preservation, and display of the Ford V-8 Era for future generations.  
