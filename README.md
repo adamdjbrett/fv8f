@@ -4,6 +4,11 @@ On Progress...
 
 ### Change Log: 
 
+March 14,2025
++ Optimazation Lighthouse
++ Fix Pagination on all pages and collections
++ Add purchase button on museum select motots
+
 March 13,2025
 + Finish Import all data
 + Implement Pagefind
@@ -47,7 +52,6 @@ March 09,2025
 #### TODO
 
 + Implement Content Hub
-+ Improve and Fix Lighthouse
 
 ---
 
@@ -84,5 +88,6 @@ March 09,2025
 + Implement Museum Select Motors https://fv8f.fyi/museum-select-motors/
 + Implement Museum Select Motors Categories https://fv8f.fyi/museum-select-motors/1930/
 + Implement Museum Select Motors Categories Article https://fv8f.fyi/museum-select-motors/1940/1941-Custom-School-Bus/
++ Add purchase button on museum select motots
 
 
