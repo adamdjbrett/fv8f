@@ -27,6 +27,7 @@ font-size: 24px;
 .nav-link {
   color: #EEEDFB !important;
 }
+.img-staffs {width:150px; height:150px; border-radius:80px; object-fit:cover;margin-top:-60px;}
 .img-ev {width:100%; height:220px; object-fit:cover;}
 .text-desc {
   display: -webkit-box;
