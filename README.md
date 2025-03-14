@@ -14,6 +14,10 @@ Desktop Peform
 
 ### Change Log: 
 
+March 15,2025
++ Fix Staff Page
++ Update Content Hub
+
 March 14,2025
 + Integration Content Hub
 + Implement Header Anchor
