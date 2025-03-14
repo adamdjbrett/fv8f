@@ -10,12 +10,13 @@
 <div class="p-1">
 <p>{{n.title}}</p>
 <!--<p class="small"><small>{{n.text}}</small></p> -->
-<ul class="small"l><small>
-{% if n.address %}<li>{{n.address}}</li>{% endif %}
-{% if n.phone %}<li>{{n.phone}}</li>{% endif %}
-{% if n.email %}<li><a href="mailto:{{n.email}}">{{n.email}}</a></li>{% endif %}
-</small></ul>
-<p><a href="{{n.url}}" title="{{n.title}}" class="btn btn-primary col-12">Learn More</a></p>
+<ul class="small"l>
+{% if n.address %}<li><small>{{n.address}}</small></li>{% endif %}
+{% if n.phone %}<li><small>{{n.phone}}</small></li>{% endif %}
+{% if n.email %}<li><a href="mailto:{{n.email}}"><small>{{n.email}}</small></a></li>{% endif %}
+</ul>
+<p><a href="{{n.url}}" title="{{n.title}}" class="btn btn-primary col-12">{{n.title}} →</a></p>
+<!--<p><a href="{{n.url}}" title="{{n.title}}" class="btn btn-primary col-12">Learn More</a></p>-->
 </div>
 </div>
 {% endfor %}
