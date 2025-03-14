@@ -454,3 +454,11 @@ margin-left:5px;
   }
 }
 
+@media (max-width: 767px) {
+  .mobile-scroll {
+    max-height: 70vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+

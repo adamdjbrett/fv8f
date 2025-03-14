@@ -2,6 +2,9 @@
 title: "1936 Ford Pickup Truck"
 description: Early Ford V-8 Foundation Museums 1936 Ford Pickup Truck
 image: /img/collections/57174836_2742303972510692_2491260252075327488_n.webp
+button: 
+ text: Purchase
+ url: /
 date: 2025-03-10
 show_event_article: true
 show_ford_store: true
