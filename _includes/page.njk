@@ -26,7 +26,7 @@ layout: base.njk
 </nav>
 
 <h3 class="promo_text mb-5">{{header.title or metadata.title}}</h3>
-{{content|safe}}
+<heading-anchors>{{content|safe}}</heading-anchors>
 
 </div>
 <div class="col-md-6 bl shadow lazy-background" data-bg="{{header.image or metadata.image}}"></div>

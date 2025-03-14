@@ -15,7 +15,7 @@ layout: base.njk
 
 <section class="container-fluid trucks lazy-background" data-bg="{{metadata.news.background}}">
 <div class="row mt-5 mb-5">
-{{content|safe}}
+<heading-anchors>{{content|safe}}</heading-anchors>
 <div class="col-md-8 mx-auto p-3 p-md-5">
 <h3>{{title}}</h3>
 <form action="{{formspree_id}}" method="POST">

@@ -5,6 +5,7 @@ On Progress...
 ### Change Log: 
 
 March 14,2025
++ Implement Header Anchor
 + Optimazation Lighthouse
 + Fix Pagination on all pages and collections
 + Add purchase button on museum select motots
@@ -85,6 +86,7 @@ March 09,2025
 + Implement Contact Page https://fv8f.fyi/contact/
 + Implement Membership Print and PDF https://fv8f.fyi/pdf/Membership App.pdf
 + Implement Page Find
++ Implement Header Anchor
 + Implement Museum Select Motors https://fv8f.fyi/museum-select-motors/
 + Implement Museum Select Motors Categories https://fv8f.fyi/museum-select-motors/1930/
 + Implement Museum Select Motors Categories Article https://fv8f.fyi/museum-select-motors/1940/1941-Custom-School-Bus/

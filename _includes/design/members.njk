@@ -37,7 +37,7 @@ layout: base.njk
 <div class="row mt-5 mb-5">
 <div class="col-md-6 br shadow lazy-background" data-bg="{{article_image or metadata.image}}"></div>
 <div class="col-md-6 p-3 p-md-5">
-{{content|safe}}
+<heading-anchors>{{content|safe}}</heading-anchors>
 <p><a href="{{header.button.url}}" class="btn btn-primary">{{header.button.text}}</a></p>
 </div>
 
