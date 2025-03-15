@@ -16,7 +16,7 @@ show_patner: true
 ---
 A contribution to the EARLY FORD V-8 FOUNDATION MUSEUM MEMORIAL FUND is a most appropriate way to express sentiment at the loss of a friend or loved one. A notification is sent to the family of the deceased. What better way to acknowledge a loss than to help build a memorial for the collection, preservation, and display of the Ford V-8 Era for future generations.  
   
-\>For a **Cash Donation,** print and fill out the form and mail along with your contribution to:
+For a **Cash Donation,** print and fill out the form and mail along with your contribution to:
 
 Early Ford V-8 Foundation Museum
 
@@ -24,8 +24,8 @@ P.O. Box 284
 
 Auburn, IN 46706  
   
-\>For a more permanent remembrance, consider our [Brick Campaign](https://fordv8foundation.org/donate/brick-campaign).
+For a more permanent remembrance, consider our [Brick Campaign](https://fordv8foundation.org/donate/brick-campaign).
 
-_  
-The Early Ford V-8 Foundation Museum is an IRS 501 (c)(3) organization, with contributions deductible to the full extent of the law._
+--- 
+_The Early Ford V-8 Foundation Museum is an IRS 501(c)(3) non-profit organization, with contributions deductible to the full extent of the law._
 

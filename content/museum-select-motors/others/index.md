@@ -1,6 +1,6 @@
 ---
-title: Others Ford Collections
-description: Others Ford Vehicle Collections.
+title: Other Ford Collections
+description: Other Ford Vehicle Collections.
 layout: design/motor.njk
 image: /img/adopt/51-fordor.webp
 pagination:

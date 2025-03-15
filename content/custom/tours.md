@@ -1,6 +1,6 @@
 ---
 title: Video Tours
-description: Video tour Early Ford V-8 Foundation Museums
+description: Video tour Early Ford V-8 Foundation Museum
 layout: design/tours.njk
 pagination:
   data: collections.tours

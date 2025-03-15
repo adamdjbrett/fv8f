@@ -84,7 +84,7 @@ collections:
                   - {label: "URL", name: "url", widget: "string"}
               # Add fields for address, phone, email, social, etc.
           
-          - label: "Copyrights"
+          - label: "Copyright"
             name: "copyrights"
             widget: "object"
             fields:

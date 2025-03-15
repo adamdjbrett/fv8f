@@ -1,10 +1,10 @@
 user:
-  - key: john-doe
-    name: John Doe
-    role: Developer
-    bio: John is a senior developer with 10 years of experience.
-  - key: jane-smith
-    name: Jane Smith
-    role: Designer
-    bio: Jane is a UI/UX designer passionate about user-centered design.
+  - key: john-hoham
+    name: John Hoham
+    role: Executive Director
+    bio: bio needed
+  - key: jan-jones
+    name: Jan Jones
+    role: "Communications, Marketing and Events Manger"
+    bio: bio needed
 
