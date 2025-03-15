@@ -67,7 +67,24 @@ March 09,2025
 
 #### TODO
 
-+ Complete
+---
+#### TODO
+
+1. Create /feed/feed.xml and have it show all recent posts and events
+2. Create /feed/news.xml and have it show all recent posts
+3. Create /feed/events.xml and ahve it show all recent events
+4. In footer after copyright include a lower line that displays as follow "Feeds: [firehose](/feed/feed.xml) | [news](/feed/news.xml) | [events](/feed/events.xml) | [sitemap](sitemap.xml)"
+5. in menubar change News to show as "News & Events"
+6. Make copyright automatically update and display the year ```date: "%Y"```
+7. on https://fv8f.fyi/events/ add a button under "Museum Select Motors" that takes visitors to: /museum-select-motors/
+8. add the Ford V8 Foundation logo to /admin/
+9. Authors
+    1. Also can you setup /authors/. Authors in the collection should be John Hoham, Jan Jones, fv8f
+    2. Each author page should show all posts and events by that author. 
+    3. On posts and events the author name and avatar should appear
+10. Staff
+    1. on /staff/ please make sure that the image that is showing here is a 150x150 pixel thumbnail.
+
 
 ---
 
