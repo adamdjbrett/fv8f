@@ -34,6 +34,13 @@ layout: base.njk
 </nav>
 
 <h2>{{description}}</h2>
+{% if author %}
+  {% set authorData = author.split('___') %}
+  <p>By 
+<a href="/staff/{{ authorData[0] }}" class="non">
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</a></p>
+{% endif %}
 <article class="article"><heading-anchors>
 {{content|safe}}
 </heading-anchors></article>

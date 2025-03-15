@@ -10,6 +10,12 @@ layout: base.njk
 <img class="img-fluid lazy img-ev" alt="{{post.data.title}}" data-src="{{post.data.image or metadata.image}}"/>
 <div class="p-3">
 <h3 class="text-desc">{{post.data.title}}</h3>
+{% if post.data.author %}
+  {% set authorData = post.data.author.split('___') %}
+  <p class="text-dark">By 
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</p>
+{% endif %}
 <p class="text-dark small"><small>
 {% if post.data.start_date %}<i class="fas fa-calendar-day me-1"></i> Start: <time datetime="{{ post.data.start_date | htmlDateString }}">{{ post.data.start_date | readableDate }}</time><br/>{% endif %}
 {% if post.data.end_date %}<i class="fas fa-calendar-check me-1"></i> End: <time datetime="{{ post.data.end_date | htmlDateString }}">{{ post.data.end_date | readableDate }}</time><br/>{% endif %}

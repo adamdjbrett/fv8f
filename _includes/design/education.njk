@@ -12,6 +12,12 @@ layout: base.njk
 <div class="col-md-7 p-3">
 <div class="me-3">
 <h3 class="text-desc">{{post.data.title}}</h3>
+{% if post.data.author %}
+  {% set authorData = post.data.author.split('___') %}
+  <p class="text-secondary">By 
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</p>
+{% endif %}
 <p class="text-secondary text-desc">{{post.data.description}}</p>
 <p class="text-dark"><small>Publish : <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
 </div>

@@ -26,6 +26,13 @@ layout: base.njk
 </nav>
 
 <h3 class="promo_text mb-5">{{header.title}}</h3>
+{% if author %}
+  {% set authorData = author.split('___') %}
+  <p>By 
+<a href="/staff/{{ authorData[0] }}" class="non">
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</a></p>
+{% endif %}
 {% for text in header.info %}<p>{{text.text}}</p>{% endfor %}
 <p><a href="{{header.button.url}}" class="btn btn-primary">{{header.button.text}}</a></p>
 </div>

@@ -1,12 +1,15 @@
 ---
-layout: donate2.njk
 title: Brick Campaign
-description: The Early Ford V-8 Foundation Museum is a one-of-a-kind car museum dedicated to preserving 1932-1953 Ford history. Come visit us in Auburn, Indiana.
+description: The Early Ford V-8 Foundation Museum is a one-of-a-kind car museum
+  dedicated to preserving 1932-1953 Ford history. Come visit us in Auburn,
+  Indiana.
+layout: donate2.njk
 date: 2023-07-24
 image: /img/donate/Screen-Shot-2022-03-31-at-10.28.33-AM_2022-03-31-142959_mfnl.webp
-button: 
- text: Download Brick Order Form
- url: /pdf/brick_order_form-Fillable.pdf
+author: greg-grim___Greg Grim___/img/staff/Greg.webp
+button:
+  text: Download Brick Order Form
+  url: /pdf/brick_order_form-Fillable.pdf
 show_faq: false
 show_event_article: true
 show_nearby: true

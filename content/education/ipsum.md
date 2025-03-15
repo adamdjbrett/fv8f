@@ -2,6 +2,7 @@
 title: Lorep Ipsum Dolor
 description: Phasellus vestibulum lorem sed risus ultricies tristique.
 date: 2022-02-09
+author: jan-jones___Jan Jones___/img/staff/me.webp
 image: /img/news/34phaeton-hertz-web.webp
 show_event_article: true
 show_ford_store: true

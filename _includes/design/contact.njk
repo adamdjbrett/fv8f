@@ -22,7 +22,7 @@ layout: base.njk
 </div>
 
 <div class="col-md-6 p-3 p-md-5">
-<h3>Contact Us</h3>
+<h3>Contact Form</h3>
 <form action="{{formspree_id}}" method="POST">
 <div class="row">
 {% for n in form %}
@@ -63,4 +63,7 @@ Message
 </div>
 </div>
 </section>
-
+{% include "partials/motors.njk" %}
+{% include "partials/ford_store.njk" %}
+{% include "partials/patner.njk" %}
+{% include "partials/nearby.njk" %}

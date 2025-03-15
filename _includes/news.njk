@@ -31,11 +31,21 @@ layout: base.njk
 
 <h3 class="promo_text">{{description}}</h3>
 
-<p class="text-dark"><small><i class="fas fa-calendar me-1"></i> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> <i class="fas fa-tags ms-5 me-1"></i> 
+<p class="text-dark"><small><i class="fas fa-calendar me-1"></i> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> 
+{% if author %}
+  {% set authorData = author.split('___') %}
+  <span class="ms-5">By 
+<a href="/staff/{{ authorData[0] }}" class="non">
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</a></span>
+{% endif %}
+<i class="fas fa-tags ms-5 me-1"></i> 
 {%- for tag in tags | filterTagList %}
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a href="{{ tagUrl }}">{{ tag }}</a>{%- if not loop.last %},{% endif %}
-	{%- endfor %}</p>
+{%- endfor %}
+
+</p>
 
 <img class="img-fluid shadow-sm mt-3 mb-5" alt="{{title}}" src="{{image or metadata.image}}"/>
 <article class="article"><heading-anchors>{{content|safe}}</heading-anchors></article>

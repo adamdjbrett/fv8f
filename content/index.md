@@ -5,7 +5,7 @@ description: Preserving Ford Motor History
 image: /img/logo.png
 
 header: 
- title: "Early Ford V-8 Foundation Museum"
+ title: "Early Ford V-8 Foundation Museums"
  text: "The Early Ford V-8 Foundation Museum exists to collect, preserve, exhibit and interpret the history and heritage of the products manufactured by the Ford Motor Company between 1932 and 1953. We seek to capture and display the character, culture, and charisma of America's love affair with open roads and the Fabulous Fords that helped conquer them. The museum is an educational and research model for all to enjoy."
  blockquote: '"Flatheads Forever"....Preserving 1932 -1953 Ford V-8 History!'
  image: 

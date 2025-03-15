@@ -1,6 +1,6 @@
 ---
-title: "News & Updates"
-description: Updates from the Early Ford V-8 Foundation Museum
+title: News Update
+description: Updates Early Ford V-8 Foundation Museums
 layout: design/news.njk
 pagination:
   data: collections.news

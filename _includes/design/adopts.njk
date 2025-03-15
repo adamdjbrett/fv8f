@@ -15,13 +15,24 @@ layout: base.njk
 
 {% for post in pagination.items %}
 <div class="p-3 col-md-4 text-center">
-<a href="{{post.url}}" class="bg-light rounder shadow-sm opacity-95 row zoom non">
-<img class="img-fluid lazy img-ev" alt="{{post.data.title}}" data-src="{{post.data.image or metadata.image}}"/>
+<div class="bg-light rounder shadow-sm opacity-95 row zoom non">
+<a href="{{post.url}}" title="{{post.data.title}}"><img class="img-fluid lazy img-ev" alt="{{post.data.title}}" data-src="{{post.data.image or metadata.image}}"/></a>
 <div class="p-3">
-<h3 class="text-dark">{{post.data.title}}</h3>
+<h3><a href="{{post.url}}" class="text-dark">{{post.data.title}}</a></h3>
+
+{% if post.data.author %}
+  {% set authorData = post.data.author.split('___') %}
+  <p>By 
+<a href="/staff/{{ authorData[0] }}" class="non">
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</a></p>
+{% endif %}
+
+
+
 <p class="text-secondary small"><small>{{post.data.description}}</small></p>
 </div>
-</a>
+</div>
 </div>
 {% endfor %}
 
