@@ -16,7 +16,7 @@ museum_display:
    image: /img/collections/1951-Station-Wagon.webp
    link: /museum-select-motors/1950/
  - title: Others
-   description: Other Ford
+   description: Others Ford
    image: /img/collections/1940-Ford-V8-60-Engine-Marine-Version-A001.webp
    link: /museum-select-motors/others/
 show_event_article: true

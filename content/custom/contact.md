@@ -1,7 +1,7 @@
 ---
 layout: design/contact.njk
-title: Contact Us
-description: Contact Early Ford V-8 Foundation Museum
+title: Contact Form
+description: Contact Early Ford V-8 Foundation Museums
 formspree_id: https://formspree.io/f/xoveqaka
 image: /img/contact.png
 form: 

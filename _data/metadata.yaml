@@ -1,4 +1,4 @@
-title: "Early Ford V-8 Foundation Museum"
+title: "Early Ford V-8 Foundation Museums"
 description: "Preserving Ford Motor History"
 language: "en"
 locale: en_US
@@ -49,7 +49,7 @@ nav4:
   title: Support
   nav4_1:
    title: Donate
-   button: Donoate Now
+   button: Visit Donate Page
   nav4_2:
    title: Museum Select Motors
    button: Visit Museum Select Motors
@@ -61,7 +61,7 @@ nav5:
    - nav: Membership
      url: /membership/
 #   - nav: Become a Member
-#     url: /pdf/Membership-App.pdf
+#     url: /pdf/Membership App.pdf
    - nav: New Member Form
      url: /membership-form/
    - nav: Group Ticket Form
@@ -115,12 +115,12 @@ open_hours:
 
 event: 
     title: Upcoming Event
-    button: Explore All Events
+    button: Explore All Event
     url: /events/
 
 nearby_header: 
     title: Nearby Attractions
-    button: Explore All Nearby Attractions
+    button: Explore All Nearby
     url: /nearby-attractions/
 
 nearby:
@@ -163,7 +163,7 @@ nearby:
 news:
     title: News Article
     background: "/img/fordes.webp"
-    button: Explore All Articles
+    button: Explore All Article
     url: /news/
 
 motors:
@@ -189,7 +189,7 @@ museum_display:
    image: /img/collections/1951-Station-Wagon.webp
    link: /museum-select-motors/1950/
  - title: Other Ford
-   description: Other Ford
+   description: Others Ford
    image: /img/collections/1940-Ford-V8-60-Engine-Marine-Version-A001.webp
    link: /museum-select-motors/others/
 
@@ -221,7 +221,7 @@ store:
         url: /shop/
 
 patners:
-  title: Our Partners
+  title: Our Patner
   item: 
    - title: Heny Ford
      image: /img/henryford.jpeg
@@ -278,7 +278,7 @@ footer:
   - nav: Ebay
     url: https://www.ebay.com/str/fordv8foundation  
  address: 
-  - text: "P.O. Box 284, 2081 Rotunda Drive, Auburn, IN 46706"
+  - text: "P.o. Box 284 2081 Rotunda Drive Auburn IN 46706"
  phone: 
   text: "Phone"
   number: "(260) 927-8022"
@@ -295,7 +295,7 @@ footer:
     url: https://www.instagram.com/earlyfordv8museum/
 
 copyrights: 
- text1: Copyright 2025 
+ text1: Copyrights 2025 
  text2: Early Ford v8 Museum
  text2_url: /
 

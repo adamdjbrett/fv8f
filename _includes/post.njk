@@ -31,7 +31,16 @@ layout: base.njk
 
 <h3 class="promo_text">{{description}}</h3>
 
-<p class="text-dark"><small><i class="fas fa-calendar me-1"></i> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+<p class="text-dark"><small><i class="fas fa-calendar me-1"></i> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{% if author %}
+  {% set authorData = author.split('___') %}
+  <span class="ms-5">By 
+<a href="/staff/{{ authorData[0] }}" class="non">
+<img src="{{ authorData[2] }}" class="img_post_profile img-fluid rounded-circle ms-1 me-1"/>
+{{ authorData[1] if authorData[1] else authorData[0] }}</a></span>
+{% endif %}
+
+</p>
 
 <img class="img-fluid shadow-sm mt-3 mb-5" alt="{{title}}" src="{{image or metadata.image}}"/>
 <article class="article"><heading-anchors>{{content|safe}}</heading-anchors></article>
@@ -78,6 +87,7 @@ Next Article →
 {%- endif %}
 {%- endif %}
 
+{% include "partials/motors.njk" %}
 {% include "partials/event_article.njk" %}
 {% include "partials/ford_store.njk" %}
 {% include "partials/patner.njk" %}

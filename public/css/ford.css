@@ -28,6 +28,7 @@ font-size: 24px;
   color: #EEEDFB !important;
 }
 .img-staffs {width:150px; height:150px; border-radius:80px; object-fit:cover;margin-top:-60px;}
+.img_post_profile{width:30px; height:30px; object-fit:cover;}
 .img-ev {width:100%; height:220px; object-fit:cover;}
 .text-desc {
   display: -webkit-box;
