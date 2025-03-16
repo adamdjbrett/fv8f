@@ -4,13 +4,15 @@ title: LINKS
 description: Our Link List
 links: 
  - title: Shop
-   url: /
+   url: https://early-ford-v-8-foundation.square.site/
  - title: Ebay
-   url: /
- - title: Paypall
-   url: /
- - title: Stripe
-   url: /
+   url: https://www.ebay.com/str/fordv8foundation
+ - title: Paypal
+   url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
+ - title: Facebook
+   url: https://www.facebook.com/earlyfordv8museum
+ - title: Instagram
+   url: https://www.instagram.com/earlyfordv8museum/  
 permalink: /links/
 ---
 
