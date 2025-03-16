@@ -13,6 +13,10 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 16,2025
++ Complete To Do
++ Fix Content Hub
+
 March 15,2025
 + Add Author staff on all Collections
 + Fix Staff Page

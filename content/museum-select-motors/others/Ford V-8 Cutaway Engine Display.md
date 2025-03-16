@@ -2,6 +2,13 @@
 title: Ford V-8 Cutaway Engine Display
 description: 
 image: /img/collections/Early-Ford-V8-Engine-Cutaway-Display-A001.webp
+show_gallery: true
+gallery_title: Gallery
+gallery:
+ - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
+ - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
 button: 
  text: Purchase
  url: /
