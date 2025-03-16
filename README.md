@@ -93,7 +93,7 @@ https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%
 ```
 13. on /contact/ also add apple maps link- ***DONE***
 14. on /memorial-fund/ line 19 add hyper link to the form.- ***DONE via button***
-15. Museum Select Motors Changes- ***SOON***
+15. Museum Select Motors Changes- ***DONE***
     1.  import all data and images for 1936 Ford Deluxe Cabriolet add a buy now button. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1936-ford-deluxe-cabriolet/315?cp=true&sa=false&sbp=false&q=false&category_id=20)
     2. import all data and images and add a buy now button for 1932 Ford Tutor Sedan. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1932FordTudorSedan/316?cp=true&sa=false&sbp=false&q=false&category_id=20)
     3. import all data and images and add a buy now button for 1949 Ford Custom Tudor Sedan. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1949-ford-custom-tudor-sedan/283?cp=true&sa=false&sbp=false&q=false&category_id=20)
