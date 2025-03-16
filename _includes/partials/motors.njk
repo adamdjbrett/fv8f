@@ -1,6 +1,9 @@
 {% if show_motors %}<section class="container-fluid">
 <div class="row justify-content-center text-center">
-<h3 class="p-3 p-md-5 col-md-12">{{metadata.motors.title}}</h3>
+<div  class="col-md-12">
+<h3>{{metadata.motors.title}}</h3>
+<p><a href="{{metadata.motors.url}}" class="btn btn-primary">{{metadata.motors.button}} →</a></p>
+</div>
 {% for motor in metadata.museum_display %}
 <div class="col-md-3 col-6 p-3 p-md-5">
 <a href="{{motor.link}}" title="{{motor.title}}"><img class="img-fluid lazy" width="100%" height="100%" alt="{{title}}" data-src="{{motor.image}}"></a>

@@ -131,3 +131,4 @@ setInterval(updateTimer, 1000);
 updateTime();
 setInterval(updateTime, 1000);
 
+document.getElementById('currentYear').textContent = new Date().getFullYear();

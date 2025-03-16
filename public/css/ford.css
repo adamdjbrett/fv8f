@@ -424,7 +424,25 @@ html,body,p,.btn,button,h2.btn,.lead {font-size: 16px;}
   }
 }
 
-
+@media (max-width: 1024px) {
+  .img-logo {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 120px;
+    height: 50px;
+  }
+  
+  #timer {
+    position: absolute;
+    top: 3px;
+    right: 22px;
+    font-size: 14px;
+    width: auto !important;
+  }
+  
+  .mobile {
+    display: block;
+  }
 @media (max-width: 399px) {
   .img-logo {
 margin-top:10px;

@@ -15,7 +15,12 @@
 </p>
 </div>
 </div>
-<p class="text-center copy">{{metadata.copyrights.text1}} <a href="{{metadata.copyrights.text2_url}}" class="text-white">{{metadata.copyrights.text2}}</a></p>
+<p class="text-center copy">Copyright <span id="currentYear"></span> {{metadata.copyrights.text1}} <a href="{{metadata.copyrights.text2_url}}" class="text-white">{{metadata.copyrights.text2}}</a><br/>
+{% for i in metadata.footer.feed %}
+  <a class="text-white" href="{{ i.url }}">{{ i.nav }}</a>{% if not loop.last %} | {% endif %}
+{% endfor %}
+</p>
+
 </div>
 </footer>
 
