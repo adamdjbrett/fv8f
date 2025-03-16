@@ -17,6 +17,9 @@ visit:
   - text: 2181 Rotunda Drive
   - text: Auburn, IN 46706
  open: "Monday through Sunday (9-5)"
+ apple_button: 
+   text: "Apple Maps"
+   url: "https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%20United%20States&auid=2400004346339794474&ll=41.334899,-85.089519&lsp=9902&q=Early%20Ford%20V-8%20Foundation%20%26%20Museum&t=m"
  button: 
    text: "Get Directions"
    url: "https://www.google.com/maps/place/Early+Ford+V-8+Foundation+Museum/@41.3352698,-85.0892508,15z/data=!4m2!3m1!1s0x0:0xd407c527d5ed08cb?sa=X&ved=2ahUKEwiXie2Zp_P1AhXrjokEHZmXAl0Q_BJ6BAgyEAU"

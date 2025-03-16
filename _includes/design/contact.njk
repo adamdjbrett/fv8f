@@ -53,6 +53,9 @@ Message
 <p>{% for i in visit.info %}{{i.text}}<br/>{% endfor %}
 <strong>{{visit.open}}</strong></p>
 <p>
+<a href="{{visit.apple_button.url}}" target="_blank" class="btn btn-primary">{{visit.apple_button.text}}</a>
+</p>
+<p>
 <a href="{{visit.button.url}}" target="_blank" class="btn btn-primary">{{visit.button.text}}</a>
 </p>
 </div>

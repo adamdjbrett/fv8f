@@ -64,30 +64,71 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 4
-			}
-		},
-		collection: {
-			name: "posts",
-			limit: 10,
-		},
-		metadata: {
-			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
-			author: {
-				name: "Your Name"
-			}
-		}
-	});  
+  // Konfigurasi feed utama Anda
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom",
+    outputPath: "/feed/feed.xml",
+    stylesheet: "pretty-atom-feed.xsl",
+    templateData: {
+      eleventyNavigation: {
+        key: "Feed",
+        order: 4
+      }
+    },
+    collection: {
+      name: "all",
+      limit: 10,
+    },
+    metadata: {
+      language: "en",
+      title: "Blog Title",
+      subtitle: "This is a longer description about your blog.",
+      base: "https://fv8f.fyi/",
+      author: {
+        name: "Your Name"
+      }
+    }
+  });
+
+  // Feed untuk events
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom",
+    outputPath: "/feed/events.xml",
+    stylesheet: "pretty-atom-feed.xsl",
+    collection: {
+      name: "events",
+      limit: 10,
+    },
+    metadata: {
+      language: "en",
+      title: "Events Feed",
+      subtitle: "Latest events from our blog",
+      base: "https://fv8f.fyi/",
+      author: {
+        name: "Your Name"
+      }
+    }
+  });
+
+  // Feed untuk news
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom",
+    outputPath: "/feed/news.xml",
+    stylesheet: "pretty-atom-feed.xsl",
+    collection: {
+      name: "news",
+      limit: 10,
+    },
+    metadata: {
+      language: "en",
+      title: "News Feed",
+      subtitle: "Latest news from our blog",
+      base: "https://fv8f.fyi/",
+      author: {
+        name: "Your Name"
+      }
+    }
+  });
     const md = new markdownIt({
     html: true,
     breaks: true,
