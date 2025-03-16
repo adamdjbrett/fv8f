@@ -77,8 +77,8 @@ March 09,2025
     1. do the same on https://fv8f.fyi/  - ***DONE***
 8. add the Ford V8 Foundation logo to /admin/ - ***DONE***
 9. Authors
-    1. Also can you setup /authors/. Authors in the collection should be John Hoham, Jan Jones, fv8f - ***DONE - user staff content hub integration widget***
-    2. Each author page should show all posts and events by that author.  - ***Can't Implement this is a multiauthor concept'***
+    1. Also can you setup /authors/. Authors in the collection should be John Hoham, Jan Jones, fv8f - ***DONE - use staff content hub integration widget***
+    2. Each author page should show all posts and events by that author.  - ***Can't Implement this is a multiauthor concept - the soultions is use tags if you want display post per author***
     3. On posts and events the author name and avatar should appear - ***DONE***
 10. Staff
     1. on /staff/ please make sure that the image that is showing here is a 150x150 pixel thumbnail. - ***DONE***
@@ -88,7 +88,7 @@ March 09,2025
 https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%20United%20States&auid=2400004346339794474&ll=41.334899,-85.089519&lsp=9902&q=Early%20Ford%20V-8%20Foundation%20%26%20Museum&t=m
 ```
 13. on /contact/ also add apple maps link- ***DONE***
-14. on /memorial-fund/ line 19 add hyper link to the form.- ***DONE***
+14. on /memorial-fund/ line 19 add hyper link to the form.- ***DONE via button***
 15. Museum Select Motors Changes- ***SOON***
     1.  import all data and images for 1936 Ford Deluxe Cabriolet add a buy now button. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1936-ford-deluxe-cabriolet/315?cp=true&sa=false&sbp=false&q=false&category_id=20)
     2. import all data and images and add a buy now button for 1932 Ford Tutor Sedan. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1932FordTudorSedan/316?cp=true&sa=false&sbp=false&q=false&category_id=20)

@@ -1,8 +1,8 @@
-#local_backend: true
+local_backend: true
 backend:
   name: git-gateway
-  repo: adamdjbrett/fordv8foundation.org
-  branch: main 
+#  repo: adamdjbrett/fordv8foundation.org
+#  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -48,7 +48,90 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "URL", name: "url", widget: "string"}
           
-          # Add similar structures for nav1, nav2, nav3, etc.
+          - label: "Nav1"
+            name: "nav1"
+            widget: "object"
+            fields:
+              - {label: "Nav", name: "nav", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nav2"
+            name: "nav2"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Nav2_1", name: "nav2_1", widget: "string"}
+              - {label: "Nav2_2", name: "nav2_2", widget: "string"}
+              - label: "Nav2_3"
+                name: "nav2_3"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Items"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Nav", name: "nav", widget: "string"}
+                      - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nav3"
+            name: "nav3"
+            widget: "object"
+            fields:
+              - {label: "Nav", name: "nav", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nav4"
+            name: "nav4"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Nav4_1"
+                name: "nav4_1"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Button", name: "button", widget: "string"}
+              - label: "Nav4_2"
+                name: "nav4_2"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Button", name: "button", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+          
+          - label: "Nav5"
+            name: "nav5"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                fields:
+                  - {label: "Nav", name: "nav", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nav6"
+            name: "nav6"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                fields:
+                  - {label: "Nav", name: "nav", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nav7"
+            name: "nav7"
+            widget: "object"
+            fields:
+              - {label: "Nav", name: "nav", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - {label: "Search", name: "search", widget: "string"}
           
           - label: "Open Hours"
             name: "open_hours"
@@ -68,7 +151,104 @@ collections:
                   - {label: "Day", name: "day", widget: "string"}
                   - {label: "Time", name: "time", widget: "string"}
           
-          # Add similar structures for event, nearby_header, nearby, news, motors, etc.
+          - label: "Event"
+            name: "event"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nearby Header"
+            name: "nearby_header"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Nearby"
+            name: "nearby"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "News"
+            name: "news"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Background", name: "background", widget: "image"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Motors"
+            name: "motors"
+            widget: "object"
+            fields:
+              - {label: "Ford 1930", name: "ford1930", widget: "string"}
+              - {label: "Ford 1940", name: "ford1940", widget: "string"}
+              - {label: "Ford 1950", name: "ford1950", widget: "string"}
+              - {label: "Others", name: "others", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Museum Display"
+            name: "museum_display"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Link", name: "link", widget: "string"}
+          
+          - label: "Collections"
+            name: "collections"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Background", name: "background", widget: "image"}
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Store"
+            name: "store"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Background", name: "background", widget: "image"}
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "Button", name: "button", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Price", name: "price", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+          
+          - label: "Partners"
+            name: "partners"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "URL", name: "url", widget: "string"}
           
           - label: "Footer"
             name: "footer"
@@ -82,7 +262,36 @@ collections:
                 fields:
                   - {label: "Nav", name: "nav", widget: "string"}
                   - {label: "URL", name: "url", widget: "string"}
-              # Add fields for address, phone, email, social, etc.
+              - label: "Address"
+                name: "address"
+                widget: "list"
+                field: {label: "Text", name: "text", widget: "string"}
+              - label: "Phone"
+                name: "phone"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Number", name: "number", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+              - label: "Email"
+                name: "email"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+              - label: "Social"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+              - label: "Feeds"
+                name: "feed"
+                widget: "list"
+                fields:
+                  - {label: "Nav", name: "nav", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
           
           - label: "Copyright"
             name: "copyrights"
@@ -100,6 +309,8 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Email", name: "email", widget: "string"}
               - {label: "URL", name: "url", widget: "string"}
+
+
 
   - name: "homepages"
     label: "Home Page"
@@ -349,6 +560,12 @@ collections:
                 widget: "list"
                 field: {label: "Text", name: "text", widget: "string"}
               - {label: "Open Hours", name: "open", widget: "string"}
+              - label: "Apple Directions Button"
+                name: "apple_button"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
               - label: "Directions Button"
                 name: "button"
                 widget: "object"
@@ -924,7 +1141,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "patners_pages"
-    label: "Patner Pages"
+    label: "Partner Pages"
     editor:
       preview: false
     files:
@@ -936,7 +1153,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/patners/"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/partners/"}
           - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
           - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false, required: false}
           - {label: "Show Partner", name: "show_patner", widget: "boolean", default: false, required: false}
