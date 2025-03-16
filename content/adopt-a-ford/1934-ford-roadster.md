@@ -8,7 +8,7 @@ button:
  url: /pdf/Adopt-A-Ford.pdf
 show_event_article: true
 show_ford_store: true
-show_patner: false
+show_partner: false
 show_motors: false
 tags: 
  - adopted vehicles

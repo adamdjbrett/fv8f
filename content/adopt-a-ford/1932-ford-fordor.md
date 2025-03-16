@@ -9,7 +9,7 @@ button:
 show_event_article: true
 show_motors: false
 show_ford_store: true
-show_patner: false
+show_partner: false
 tags: 
  - 1930s
 ---

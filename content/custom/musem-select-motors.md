@@ -21,7 +21,7 @@ museum_display:
    link: /museum-select-motors/others/
 show_event_article: true
 show_ford_store: true
-show_patner: false
+show_partner: true
 show_nearby: false
 show_motors: true
 permalink: /museum-select-motors/

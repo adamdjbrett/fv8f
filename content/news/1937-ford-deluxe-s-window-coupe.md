@@ -3,10 +3,11 @@ title: 1937 Ford Deluxe 5-Window Coupe
 description: William and Mary Ann have decided to retire this car to its new home in the Frank Corey Gallery at the museum.
 date: 2022-02-02
 image: /img/news/IMG_8172.webp
+author: jan-jones___Jan Jones___/img/staff/me.webp
 show_event_article: true
 show_ford_store: true
 show_motors: true
-show_patner: true
+show_partner: true
 tags: 
  - 1937 ford deluxe
  - ford

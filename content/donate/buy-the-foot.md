@@ -7,7 +7,7 @@ show_faq: false
 show_event_article: true
 show_ford_store: true
 show_motors: true
-show_patner: true
+show_partner: true
 ---
 {% buttonfoot 
   src1="/img/donate/SOUTHWEST-VIEW-OF-NEW.jpg",

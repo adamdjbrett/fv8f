@@ -35,7 +35,7 @@ faq:
 show_event_article: true
 show_motors: true
 show_ford_store: true
-show_patner: true
+show_partner: true
 ---
 Please contact a knowledgeable estate planning professional to ask what type of charitable bequest or gift will benefit you the most.
 

@@ -4,7 +4,7 @@ title: Nearby Attractions
 description: Nearby Attractions Early Ford v8 Foundation Museum
 show_event_article: false
 show_ford_store: false
-show_patner: false
+show_partner: false
 show_motors: false
 permalink: /nearby-attractions/
 ---

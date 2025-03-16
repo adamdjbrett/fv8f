@@ -18,7 +18,7 @@ button:
  url: "greg@fordv8foundation.org"
 show_event_article: true
 show_ford_store: true
-show_patner: true
+show_partner: true
 show_nearby: true
 show_motors: true
 ---
