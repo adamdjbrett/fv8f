@@ -12,7 +12,7 @@ testdata:
  - item3
  - item4
 show_ford_store: true
-show_patner: true
+show_partner: true
 show_motors: true
 permalink: "events/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---

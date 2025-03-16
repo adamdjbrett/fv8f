@@ -14,7 +14,7 @@ testdata:
  - item4
 show_event_article: false
 show_ford_store: false
-show_patner: false
+show_partner: false
 show_nearby: false
 permalink: "/museum-select-motors/1930/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---

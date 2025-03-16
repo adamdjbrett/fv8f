@@ -15,7 +15,7 @@ button:
 date: 2025-03-10
 show_event_article: true
 show_ford_store: true
-show_patner: false
+show_partner: false
 show_nearby: false
 show_motors: true
 show_post: true

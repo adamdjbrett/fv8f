@@ -1,6 +1,7 @@
 ---
 title: 2024 Spring Swap Meet
 description: "Springtime is upon us... you know what that means! Our annual Spring Swap Meet at the Early Ford V-8 Foundation Museum is approaching! "
+author: jan-jones___Jan Jones___/img/staff/me.webp
 start_date: 2025-05-02
 end_date: 2025-05-04
 date: 2025-02-26

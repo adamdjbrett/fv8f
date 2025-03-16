@@ -8,7 +8,7 @@ button:
  url: /contact/
 show_event_article: true
 show_ford_store: true
-show_patner: true
+show_partner: true
 show_motors: true
 permalink: /about/
 ---
@@ -64,7 +64,7 @@ the main event room and a classroom perfect for smaller gatherings and meetings.
   alt1="Staff",
   url1="/staff",
   src2="/img/page/v8.webp",
-  alt2="Patners",
+  alt2="partners",
   url2="/partners",
   src3="/img/page/Early-Ford-V8-Foundation-Museum-A137.webp",
   alt3="News",

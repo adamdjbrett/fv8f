@@ -15,7 +15,7 @@ show_event_article: true
 show_nearby: true
 show_ford_store: true
 show_motors: true
-show_patner: true
+show_partner: true
 ---
 The Early Ford V-8 Foundation Museum has created a BRICK CAMPAIGN,
 "Paving the Way", to provide supporters a permanent way to recognize/remember loved ones, show support of your Company or Organization, and help the Early Ford V-8 Foundation maintain our Museum in Auburn, Indiana.

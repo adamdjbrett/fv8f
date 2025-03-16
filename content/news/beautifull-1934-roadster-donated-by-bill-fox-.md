@@ -3,9 +3,10 @@ title: Beautiful 1934 Roadster Donated by Bill Fox
 description: Bill and Joann recently donated their beloved, stunning 1934 Roadster to the Museum.
 date: 2022-02-09
 image: /img/news/Fox-34-Roadster-web.webp
+author: jan-jones___Jan Jones___/img/staff/me.webp
 show_event_article: true
 show_ford_store: true
-show_patner: true
+show_partner: true
 tags: 
  - 1934 roadster
  - roadster

@@ -8,9 +8,9 @@ favicon: /img/logofull.webp
 url: "https://fv8f.fyi"
 
 metasocial: 
- - facebook: "https://www.facebook.com/earlyfordv8museum"
- - twitteruser: "@user"
- - twitter: "https://x.com/user"
+ facebook: "https://www.facebook.com/earlyfordv8museum"
+ twitteruser: "@user"
+ twitter: "https://x.com/user"
 
 nav_logo: "/img/logofull.webp"
 nav_button: 

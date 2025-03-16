@@ -13,6 +13,9 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 17,2025
++ Fix all `patner` to be `partner`
+
 March 16,2025
 + Complete To Do
 + Fix Content Hub
@@ -70,7 +73,7 @@ March 09,2025
 
 ---
 #### TODO
-1. fix all spellings of ```patners``` to ```partners```
+1. fix all spellings of ```patners``` to ```partners``` ***DONE***
 
 
 

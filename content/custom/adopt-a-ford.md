@@ -18,7 +18,7 @@ button:
 show_event_article: false
 show_ford_store: false
 show_motors: false
-show_patner: false
+show_partner: false
 permalink: "adopt-a-ford/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 ### Adopt-A-Ford

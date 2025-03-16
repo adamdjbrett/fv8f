@@ -6,7 +6,7 @@ date: 2022-02-09
 video: KIU3w3PPsh4
 show_event_article: true
 show_ford_store: true
-show_patner: true
+show_partner: true
 show_motors: true
 ---
 
