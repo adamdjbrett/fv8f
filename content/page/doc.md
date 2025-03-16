@@ -46,7 +46,7 @@ eleventyExcludeFromCollections: true
 + Tours Setup Page to update video tours main page
 + Video Tours to update video toour article
 + Patner Pages to update main patner page
-    - TO create new patners you can access on site settings - patners menu
+    - TO create new partners you can access on site settings - partners menu
 + Nearby Attractions to update nearby attractions page
     - To create new you can access on site settings - nearby
 + Links Page to update links page

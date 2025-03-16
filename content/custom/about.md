@@ -65,7 +65,7 @@ the main event room and a classroom perfect for smaller gatherings and meetings.
   url1="/staff",
   src2="/img/page/v8.webp",
   alt2="Patners",
-  url2="/patners",
+  url2="/partners",
   src3="/img/page/Early-Ford-V8-Foundation-Museum-A137.webp",
   alt3="News",
   url3="/news/"

@@ -70,6 +70,13 @@ March 09,2025
 
 ---
 #### TODO
+1. fix all spellings of ```patners``` to ```partners```
+
+
+
+---
+
+#### DONE
 
 1. Create /feed/feed.xml and have it show all recent posts and events - ***DONE***
 2. Create /feed/news.xml and have it show all recent posts - ***DONE***
@@ -100,12 +107,6 @@ https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%
     4. import all data and images and add a buy now button for 1951 Ford Custom Victoria 1A-60. [Buy Now](https://early-ford-v-8-foundation.square.site/product/1951-ford-custom-victoria-1a-60/314?cp=true&sa=false&sbp=false&q=false&category_id=20)
     5. add photo gallery slider with popup full view to each vechicle. Make this something that can be set via front matter.
 16.  Fix Tablet devices / Mobile Landscape Navbar- ***DONE***
-
-
----
-
-#### DONE
-
 + Import Content Data and Convert design for News Article Page and List [https://fv8f.fyi/news/](https://fv8f.fyi/news/)
 + Import Content Data and Convert design for Event Article Page and List [https://fv8f.fyi/events/](https://fv8f.fyi/events/)
 + Import Content Data and Convert design for Membership Page [https://fv8f.fyi/membership/](https://fv8f.fyi/membership/)
