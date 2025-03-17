@@ -15,6 +15,10 @@ Desktop Peformance
 ### Change Log: 
 March 17,2025
 + Fix all `patner` to be `partner`
++ Fetch all gallery museum select motor images `img/musuem-select-motors`
++ Add slider gallery on museum select motors
++ Toggle show hide galleries
++ Update Decap CMS
 
 March 16,2025
 + Complete To Do
@@ -74,7 +78,9 @@ March 09,2025
 ---
 #### TODO
 1. fix all spellings of ```patners``` to ```partners``` ***DONE***
-
+2. Fecth image data from `img/muesum-select-motors` ***DONE***
+3. Implement gallery slider on `museum-select-motors` ***DONE***
+4. Update decap cms ***DONE***
 
 
 ---
