@@ -5,11 +5,6 @@ author: jan-jones___Jan Jones___/img/staff/me.webp
 image: /img/collections/Ford-Simca-Vedette-V8-Engine-A003.webp
 show_gallery: true
 gallery_title: Gallery
-gallery:
- - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
- - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
- - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
- - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
 button: 
  text: Purchase
  url: /

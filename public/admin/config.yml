@@ -1,8 +1,8 @@
-local_backend: true
+#local_backend: true
 backend:
   name: git-gateway
-#  repo: adamdjbrett/fordv8foundation.org
-#  branch: main 
+  repo: adamdjbrett/fordv8foundation.org
+  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -817,12 +817,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
-      - label: "Gallery Image"
-        name: "gallery"
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -865,12 +859,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
-      - label: "Gallery Image"
-        name: "gallery"
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -913,12 +901,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
-      - label: "Gallery Image"
-        name: "gallery"
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -961,12 +943,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
-      - label: "Gallery Image"
-        name: "gallery"
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"

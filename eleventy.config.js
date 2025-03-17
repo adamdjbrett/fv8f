@@ -10,6 +10,39 @@ import { stripHtml } from "string-strip-html";
 import pluginFilters from "./_config/filters.js";
 import pluginCodes from "./_config/codes.js";
 import embedEverything from "eleventy-plugin-embed-everything";
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+function getImagesRecursively(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  
+  list.forEach(file => {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+    
+    if (stat && stat.isDirectory()) {
+      results.push({
+        type: 'directory',
+        name: file,
+        children: getImagesRecursively(filePath)
+      });
+    } else {
+      const ext = path.extname(file).toLowerCase();
+      if (['.jpg', '.jpeg', '.png', '.gif'].includes(ext)) {
+        results.push({
+          type: 'file',
+          name: file,
+          path: path.relative(__dirname, filePath).replace(/\\/g, '/')
+        });
+      }
+    }
+  });
+  
+  return results;
+}
 export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -26,6 +59,47 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addBundle("css", {
 		toFileDirectory: "dist",
 	});
+  eleventyConfig.addNunjucksGlobal("getImages", function(folderPath) {
+    const baseDir = path.join(__dirname, 'public');
+    const directoryPath = path.join(baseDir, folderPath);
+    
+    function getImagesRecursively(dir) {
+      let results = [];
+      const list = fs.readdirSync(dir);
+      
+      list.forEach(file => {
+        const filePath = path.join(dir, file);
+        const stat = fs.statSync(filePath);
+        
+        if (stat && stat.isDirectory()) {
+          results.push({
+            type: 'directory',
+            name: file,
+            children: getImagesRecursively(filePath)
+          });
+        } else {
+          const ext = path.extname(file).toLowerCase();
+          if (['.jpg', '.jpeg', '.png', '.gif'].includes(ext)) {
+            results.push({
+              type: 'file',
+              name: file,
+              path: '/' + path.relative(baseDir, filePath).replace(/\\/g, '/')
+            });
+          }
+        }
+      });
+      
+      return results;
+    }
+  
+    try {
+      return getImagesRecursively(directoryPath);
+    } catch (error) {
+      console.error(`Error reading directory: ${directoryPath}`, error);
+      return [];
+    }
+  });
+  
 	eleventyConfig.addBundle("js", {
 		toFileDirectory: "dist",
 	});

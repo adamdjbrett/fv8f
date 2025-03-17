@@ -4,11 +4,6 @@ description: Early Ford V-8 Foundation Museum 1949 Ford Custom Tudor Sedan
 image: /img/museum-select-motors/1949-ford-custom-tudor-sedan/01.webp
 show_gallery: true
 gallery_title: Gallery
-gallery:
- - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
- - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
- - image: /img/museum-select-motors/1932-ford-tudor-sedan/01.webp
- - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
 button: 
  text: Purchase
  url: "https://early-ford-v-8-foundation.square.site/product/1949-ford-custom-tudor-sedan/283?cp=true&sa=false&sbp=false&q=false&category_id=20"
