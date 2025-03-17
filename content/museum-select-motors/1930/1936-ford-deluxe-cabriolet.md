@@ -2,8 +2,24 @@
 title: "1936 Ford Deluxe Cabriolet"
 description: Early Ford V-8 Foundation Museum 1936 Ford Deleux Cabriolet
 image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
-show_gallery: false
+show_gallery: true
 gallery_title: Gallery
+gallery:
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.jpg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/01.png
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/02.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/03.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/04.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/05.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/06.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/07.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/08.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/09.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/10.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/11.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/12.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/13.jpeg
+ - image: /img/museum-select-motors/1936-ford-deluxe-cabriolet/14.jpeg
 button: 
  text: Purchase
  url: "https://early-ford-v-8-foundation.square.site/product/1936-ford-deluxe-cabriolet/315?cp=true&sa=false&sbp=false&q=false&category_id=20"

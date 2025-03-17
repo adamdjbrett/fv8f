@@ -17,11 +17,22 @@
         .gallery img:hover {
             transform: scale(1.05);
         }
+    @media (max-width: 768px) {
+        .gallery {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            padding: 8px;
+        }
+        .gallery img {
+            height: 150px;
+            min-width: 0;
+        }
+    }
 .modal {
     display: none;
     position: fixed;
     margin-top: 80px;
-    z-index: 9999; /* Nilai z-index yang sangat tinggi */
+    z-index: 9999;
     left: 0;
     top: 0;
     width: 100%;
@@ -39,10 +50,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .modal-content img {
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
@@ -55,7 +67,7 @@
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    z-index: 10000; /* Memastikan tombol close di atas gambar */
+    z-index: 10000; 
 }
 
 .prev, .next {
