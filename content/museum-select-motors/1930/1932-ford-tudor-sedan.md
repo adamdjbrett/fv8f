@@ -19,4 +19,4 @@ tags:
 ---
 ## Description
 
-Survivor car 1932 Deluxe Tudor Sedan. Wheels, body molding and drip rails have been painted a light green color. Other than that it pretty original. Performance maintenance has kept the car running till today. Runs, drives and stops. Call for more details, or to schedule an appointment to see it. 260-927-8022
+Survivor car 1932 Deluxe Tudor Sedan. Wheels, body molding and drip rails have been painted a light green color. Other than that it pretty original. Performance maintenance has kept the car running till today. Runs, drives and stops. Call for more details, or to schedule an appointment to see it 260-927-8022.

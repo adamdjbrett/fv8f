@@ -17,7 +17,8 @@ show_post: true
 tags: 
  - ford1930
 ---
-1936 Ford Deluxe Cabriolet $52,000 260-927-8022 for appointment to see the car.
+- 1936 Ford Deluxe Cabriolet $52,000 
+- Call 260-927-8022 for appointment to see the car.
 
 ## Details
 - Year – 1936.
