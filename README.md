@@ -13,12 +13,17 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 18,2025
++ Fix Museum Select Motors Article Gallery
++ Move Museum Select Motors List Article in to `custom`
++ Update Content Hub
+
 March 17,2025
 + Fix all `patner` to be `partner`
 + Fetch all gallery museum select motor images `img/musuem-select-motors`
 + Add slider gallery on museum select motors
 + Toggle show hide galleries
-+ Update Decap CMS
++ Update Content CMS
 
 March 16,2025
 + Complete To Do

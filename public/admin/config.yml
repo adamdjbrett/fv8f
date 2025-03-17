@@ -804,6 +804,30 @@ collections:
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/museum-select-motors/"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
+
+  - name: "1930_ford_collections"
+    label: "1930s Ford List"
+    editor:
+      preview: false
+    files:
+      - name: "other_ford_collections_1930"
+        label: "Other Ford Collections 1930"
+        file: "content/custom/1930.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Other Ford Collections"}
+          - {label: "Description", name: "description", widget: "string", default: "Other Ford Vehicle Collections."}
+          - {label: "Featured Image", name: "image", widget: "image", default: "/img/adopt/51-fordor.webp", required: false}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number", default: 9, required: false}
+              - {label: "Reverse", name: "reverse", widget: "boolean", default: true, required: false}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false, required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", default: false, required: false}
+          - {label: "Show Nearby", name: "show_nearby", widget: "boolean", default: false, required: false}
+
   - name: "museum_select_motors_1930"
     label: "Museum Select Motors 1930s"
     folder: "content/museum-select-motors/1930"
@@ -817,6 +841,12 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
+      - label: "Gallery Image"
+        name: "gallery"
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -846,6 +876,29 @@ collections:
         default: ["ford1930"]
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
+  - name: "1940_ford_collections"
+    label: "1940s Ford List"
+    editor:
+      preview: false
+    files:
+      - name: "other_ford_collections_1940"
+        label: "Other Ford Collections 1940"
+        file: "content/custom/1940.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Other Ford Collections"}
+          - {label: "Description", name: "description", widget: "string", default: "Other Ford Vehicle Collections."}
+          - {label: "Featured Image", name: "image", widget: "image", default: "/img/adopt/51-fordor.webp", required: false}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number", default: 9, required: false}
+              - {label: "Reverse", name: "reverse", widget: "boolean", default: true, required: false}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false, required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", default: false, required: false}
+          - {label: "Show Nearby", name: "show_nearby", widget: "boolean", default: false, required: false}
+
   - name: "museum_select_motors_1940"
     label: "Museum Select Motors 1940s"
     folder: "content/museum-select-motors/1940"
@@ -859,6 +912,12 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
+      - label: "Gallery Image"
+        name: "gallery"
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -888,6 +947,29 @@ collections:
         default: ["ford1940"]
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
+  - name: "1950_ford_collections"
+    label: "1950s Ford List"
+    editor:
+      preview: false
+    files:
+      - name: "other_ford_collections_1950"
+        label: "Other Ford Collections 1950"
+        file: "content/custom/1950.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Other Ford Collections"}
+          - {label: "Description", name: "description", widget: "string", default: "Other Ford Vehicle Collections."}
+          - {label: "Featured Image", name: "image", widget: "image", default: "/img/adopt/51-fordor.webp", required: false}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number", default: 9, required: false}
+              - {label: "Reverse", name: "reverse", widget: "boolean", default: true, required: false}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false, required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", default: false, required: false}
+          - {label: "Show Nearby", name: "show_nearby", widget: "boolean", default: false, required: false}
+
   - name: "museum_select_motors_1950"
     label: "Museum Select Motors 1950s"
     folder: "content/museum-select-motors/1950"
@@ -901,6 +983,12 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
+      - label: "Gallery Image"
+        name: "gallery"
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -930,6 +1018,30 @@ collections:
         default: ["ford1950"]
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
+
+  - name: "other_ford_collections"
+    label: "Other Ford List"
+    editor:
+      preview: false
+    files:
+      - name: "other_ford_collections_1900"
+        label: "Other Ford Collections 1900"
+        file: "content/custom/1900.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Other Ford Collections"}
+          - {label: "Description", name: "description", widget: "string", default: "Other Ford Vehicle Collections."}
+          - {label: "Featured Image", name: "image", widget: "image", default: "/img/adopt/51-fordor.webp", required: false}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number", default: 9, required: false}
+              - {label: "Reverse", name: "reverse", widget: "boolean", default: true, required: false}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false, required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", default: false, required: false}
+          - {label: "Show Nearby", name: "show_nearby", widget: "boolean", default: false, required: false}
+
   - name: "museum_select_motors_others"
     label: "Museum Select Motors Others"
     folder: "content/museum-select-motors/others"
@@ -943,6 +1055,12 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Show Gallery Image", name: "show_gallery", widget: "boolean", default: true}
       - {label: "Gallery Title", name: "gallery_title", widget: "string", required: false}
+      - label: "Gallery Image"
+        name: "gallery"
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
       - label: "Author"
         name: "author"
         widget: "relation"
