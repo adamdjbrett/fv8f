@@ -17,6 +17,10 @@ March 18,2025
 + Fix Museum Select Motors Article Gallery
 + Move Museum Select Motors List Article in to `custom`
 + Update Content Hub
++ fix all spellings of ```patners``` to ```partners``` ***DONE***
++ Fecth image data from `img/muesum-select-motors` ***DONE***
++ Implement gallery slider on `museum-select-motors` ***DONE***
++ Update decap cms ***DONE***
 
 March 17,2025
 + Fix all `patner` to be `partner`
@@ -82,10 +86,36 @@ March 09,2025
 
 ---
 #### TODO
-1. fix all spellings of ```patners``` to ```partners``` ***DONE***
-2. Fecth image data from `img/muesum-select-motors` ***DONE***
-3. Implement gallery slider on `museum-select-motors` ***DONE***
-4. Update decap cms ***DONE***
+
+FV8F
+Main Menu
+1. Change support back to donate - **DONE**
+2. Add Museum Select Motos to Menu Bar - **DONE**
+    a. Remove collection on fv8f.fyi
+    b. Make a button
+    c. Link to https://www.museumselectmotors.com/
+3. Under about dropdown add J. Windle Event Center contact page. 
+    a. J. Windle Event Center Reservation Page
+        i. Contact form
+            1. Include event type dropdown
+            2. Event start date and time
+        ii. Photo gallery
+4. Collections
+    a. Add a dropdown that is Divided by decade like what we did for Museum Motors
+    b. Divide collection by decade on /collections/
+    c.
+5. https://fv8f.fyi/membership-form/
+    a. Make spouse optional
+    b. Add a question “Do you want to receive the newsletter by email or mail?” then radio buttons: email and mail
+    c. Add note they will be directed to payment papge
+6. Staff page
+    a. Remove kegan
+    b. Add email button
+7. Homepage.
+    a. Make Open Hours stand out more visually. Make the heading pop
+8. https://fv8f.fyi/group-ticket-form/ change “Number of Groups” to “Number of people in your group”
+    a. Remove state
+    b. Remove “request special rate” and change to say our minimum group size is 10 and the group rate is $6.00 a person.
 
 
 ---
