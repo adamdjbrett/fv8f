@@ -90,7 +90,7 @@ March 09,2025
 FV8F
 Main Menu
 1. Change support back to donate - **DONE**
-2. Add Museum Select Motos to Menu Bar - **DONE**
+2. Add Museum Select Motors to Menu Bar - **DONE**
     a. Remove collection on fv8f.fyi
     b. Make a button
     c. Link to https://www.museumselectmotors.com/
