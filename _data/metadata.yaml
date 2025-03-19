@@ -20,6 +20,10 @@ nav_donate:
  title: Donate
  url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
 
+nav_museum:
+  nav: Museum Select Motos
+  url: /museum-select-motors/
+
 nav1:
   nav: Home
   url: /
@@ -42,11 +46,13 @@ nav2:
 
 
 nav3:
-  nav: Collections
-  url: /collections/
+  nav: Museum Select Motos
+  url: /museum-select-motors/
+#  nav: Collections
+#  url: /collections/
 
 nav4:
-  title: Support
+  title: Donate
   nav4_1:
    title: Donate
    button: Visit Donate Page
