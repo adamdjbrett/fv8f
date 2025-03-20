@@ -15,7 +15,7 @@ faq:
   - q: "Building a Legacy as well as an Early Ford V-8 Museum"
     sort: 1
     a: |
-      Bequests, legacies, devises, transfers, or gifts to a 501c3 entity, such as the Early Ford V-8 Foundation Museum, are tax-deductible as determined by the Federal Estate and Gift Tax Act, if they meet acceptable provisions. Charitable gifts include such things as:
+      Bequests, legacies, devises, transfers, or gifts to a 501(c)(3) entity, such as the Early Ford V-8 Foundation Museum, are tax-deductible as determined by the Federal Estate and Gift Tax Act, if they meet acceptable provisions. Charitable gifts include such things as:
       + Gifts of cash, stocks and bonds, savings certificates, commercial annuity contracts, and funds held in an IRA. By naming the Early Ford V-8 Foundation as a primary or secondary beneficiary on an IRA, you would get a charitable donation write-off and avoid paying taxes on the IRA or on withdrawals made from the IRA by the Early Ford V-8 Foundation
       + Tangible property, such as Early Ford V-8 cars and trucks as well as memorabilia are wonderful ways to show your appreciation for what it has meant to you to be involved in Early Ford V-8 restoration, driving, and socializing.
       + Deferred giving through Insurance policies or annuities (simply name the Early Ford V-8 Foundation Museum as a beneficiary)

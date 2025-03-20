@@ -14,7 +14,7 @@ permalink: /about/
 ---
 
 ### Who we are:
-The Early Ford V-8 Foundation and Museum is a 501c educational organization dedicated to sharing
+The Early Ford V-8 Foundation and Museum is a 501(c)(3) educational organization dedicated to sharing
 the historical impact Henry Ford and his company, The Ford Motor Company, had on the United States, and indeed,
 
 the world, with a focus on the Flathead years of 1932-1953. We do this by creating educational and engaging dis-
@@ -24,7 +24,7 @@ the year that give them a hands-on experience with these automobiles.
 
 ### Our History:
 The foundation was formed in 1993 by a group of V-8 club members located throughout the United
-States that shared this common vision. This group has grown to include over _________ members nationwide. In
+States that shared this common vision. This group has grown to include over 1800 members nationwide. In
 2009 they opened a small museum in Auburn, IN and in 2019 expanded the museum to what it is today, a quality
 automobile museum with a collection of 60 plus automobiles that are all operable and gorgeous! At the same time a
 beautiful art deco event center, the J.Windle Event Center was built that included a sizable mechanics shop on the
