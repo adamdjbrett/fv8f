@@ -208,12 +208,13 @@ eleventyConfig.addCollection("all", function(collectionApi) {
 });
 
 eleventyConfig.addCollection("events", function(collectionApi) {
-  return collectionApi.getFilteredByTag("event");
+  return collectionApi.getFilteredByTag("events");
 });
 
 eleventyConfig.addCollection("news", function(collectionApi) {
   return collectionApi.getFilteredByTag("news");
 });
+
     const md = new markdownIt({
     html: true,
     breaks: true,
