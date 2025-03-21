@@ -4,7 +4,7 @@ description: Windle Event Center Image Gallery page
 layout: design/gallery.njk
 pagination:
   data: collections.eventgalleries
-  size: 12
+  size: 22
   reverse: true
 testdata:
  - item1
