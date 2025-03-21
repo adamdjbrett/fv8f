@@ -21,8 +21,9 @@ show_ford_store: true
 show_partner: true
 show_nearby: true
 ---
-Helen
+I have been at the museum now for nearly 10 years as the Executive Assistant. 
 
-Helen lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok .
+My main job is to handle all the income and expenses involved in keeping the foundation and museum going. 
 
-lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok lorep ipsum dolor siamet amet jabang bayi lanang wedok .
+I have four daughters and seven grandchildren, so I keep busy even when not at the museum!
+

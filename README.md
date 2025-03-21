@@ -13,6 +13,13 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 21,2025
++ Fix Navbar
++ Fix open close hours
++ Update Staff Helen
++ Update metadata
++ Update content hub
+
 March 18,2025
 + Fix Museum Select Motors Article Gallery
 + Move Museum Select Motors List Article in to `custom`
@@ -90,7 +97,7 @@ March 09,2025
 FV8F
 Main Menu
 1. Change support back to donate - **DONE**
-2. Add Museum Select Motors to Menu Bar - **DONE**
+2. Add Museum Select Motos to Menu Bar - **DONE**
     a. Remove collection on fv8f.fyi
     b. Make a button
     c. Link to https://www.museumselectmotors.com/
@@ -103,7 +110,7 @@ Main Menu
 4. Collections
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
-    c.
+
 5. https://fv8f.fyi/membership-form/
     a. Make spouse optional
     b. Add a question “Do you want to receive the newsletter by email or mail?” then radio buttons: email and mail
