@@ -13,6 +13,11 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 22,2025
++ Add windle_event_center_page gallery list
++ Add windle_event_center_page gallery article
++ Update content hub
+
 March 21,2025
 + Fix Navbar
 + Fix open close hours

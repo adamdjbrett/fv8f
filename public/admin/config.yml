@@ -1,8 +1,8 @@
-local_backend: true
+#local_backend: true
 backend:
   name: git-gateway
-#  repo: adamdjbrett/fordv8foundation.org
-#  branch: main 
+  repo: adamdjbrett/fordv8foundation.org
+  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -155,6 +155,7 @@ collections:
             name: "open_hours"
             widget: "object"
             fields:
+              - {label: "Navbar", name: "nav", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
               - label: "Button"
                 name: "button"
@@ -535,6 +536,47 @@ collections:
     editor:
       preview: false
     folder: "content/galleries"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Date", name: "date", widget: "datetime", required: false}
+      - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+      - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+      - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+      - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "eventcenter"
+    label: "Windle Event Center Page"
+    editor:
+      preview: false
+    files:
+      - label: "Windle Event Center Page Setup"
+        name: "windle_event_center_page"
+        file: "content/windle-event-center-reservation/gallery.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/gallery.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+          - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "windle_event_galleries"
+    label: "Windle Event Gallery"
+    editor:
+      preview: false
+    folder: "content/windle-event-center-reservation/galleries"
     create: true
     slug: "{{slug}}"
     fields:

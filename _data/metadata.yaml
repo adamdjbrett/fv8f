@@ -118,6 +118,7 @@ nav6:
 search: "Search"
 
 open_hours:
+ nav: "Monday - Saturday 09.00 - 05.00 | Sunday: 11.00 - 03.00"
  title: Open Hours
  button: 
   text: Buy Tickets 
