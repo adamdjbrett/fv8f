@@ -14,6 +14,7 @@ Desktop Peformance
 
 ### Change Log: 
 March 22,2025
++ Update membership_form
 + Add windle_event_center_page gallery list
 + Add windle_event_center_page gallery article
 + Update content hub
@@ -106,6 +107,7 @@ Main Menu
     a. Remove collection on fv8f.fyi
     b. Make a button
     c. Link to https://www.museumselectmotors.com/
+
 3. Under about dropdown add J. Windle Event Center contact page. 
     a. J. Windle Event Center Reservation Page
         i. Contact form
@@ -116,16 +118,16 @@ Main Menu
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
 
-5. https://fv8f.fyi/membership-form/
+5. https://fv8f.fyi/membership-form/ - **DONE**
     a. Make spouse optional
     b. Add a question “Do you want to receive the newsletter by email or mail?” then radio buttons: email and mail
-    c. Add note they will be directed to payment papge
-6. Staff page
+    c. Add note they will be directed to payment page
+6. Staff page - **DONE**
     a. Remove kegan
     b. Add email button
-7. Homepage.
+7. Homepage.- **DONE**
     a. Make Open Hours stand out more visually. Make the heading pop
-8. https://fv8f.fyi/group-ticket-form/ change “Number of Groups” to “Number of people in your group”
+8. https://fv8f.fyi/group-ticket-form/ change “Number of Groups” to “Number of people in your group” - **DONE**
     a. Remove state
     b. Remove “request special rate” and change to say our minimum group size is 10 and the group rate is $6.00 a person.
 
