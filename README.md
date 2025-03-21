@@ -104,12 +104,6 @@ March 09,2025
 
 FV8F
 Main Menu
-1. Change support back to donate - **DONE**
-2. Add Museum Select Motos to Menu Bar - **DONE**
-    a. Remove collection on fv8f.fyi
-    b. Make a button
-    c. Link to https://www.museumselectmotors.com/
-
 3. Under about dropdown add J. Windle Event Center contact page. 
     a. J. Windle Event Center Reservation Page
         i. Contact form
@@ -119,6 +113,17 @@ Main Menu
 4. Collections
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
+
+
+---
+
+#### DONE
+
+1. Change support back to donate - **DONE**
+2. Add Museum Select Motos to Menu Bar - **DONE**
+    a. Remove collection on fv8f.fyi
+    b. Make a button
+    c. Link to https://www.museumselectmotors.com/
 
 5. https://fv8f.fyi/membership-form/ - **DONE**
     a. Make spouse optional
@@ -133,10 +138,6 @@ Main Menu
     a. Remove state
     b. Remove “request special rate” and change to say our minimum group size is 10 and the group rate is $6.00 a person.
 
-
----
-
-#### DONE
 
 1. Create /feed/feed.xml and have it show all recent posts and events - ***DONE***
 2. Create /feed/news.xml and have it show all recent posts - ***DONE***

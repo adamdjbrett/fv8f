@@ -203,6 +203,17 @@ export default async function(eleventyConfig) {
       }
     }
   });
+eleventyConfig.addCollection("all", function(collectionApi) {
+  return collectionApi.getAll();
+});
+
+eleventyConfig.addCollection("events", function(collectionApi) {
+  return collectionApi.getFilteredByTag("events");
+});
+
+eleventyConfig.addCollection("news", function(collectionApi) {
+  return collectionApi.getFilteredByTag("news");
+});
 
     const md = new markdownIt({
     html: true,
