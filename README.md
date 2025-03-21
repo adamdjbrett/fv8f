@@ -116,14 +116,14 @@ Main Menu
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
 
-5. https://fv8f.fyi/membership-form/
+5. https://fv8f.fyi/membership-form/ - **DONE**
     a. Make spouse optional
     b. Add a question “Do you want to receive the newsletter by email or mail?” then radio buttons: email and mail
     c. Add note they will be directed to payment papge
-6. Staff page
+6. Staff page - **DONE**
     a. Remove kegan
     b. Add email button
-7. Homepage.
+7. Homepage.- **DONE**
     a. Make Open Hours stand out more visually. Make the heading pop
 8. https://fv8f.fyi/group-ticket-form/ change “Number of Groups” to “Number of people in your group”
     a. Remove state
