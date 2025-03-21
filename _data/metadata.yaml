@@ -21,7 +21,7 @@ nav_donate:
  url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
 
 nav_museum:
-  nav: Museum Select Motors
+  nav: Visit Museum
   url: /museum-select-motors/
 
 nav1:
@@ -45,21 +45,43 @@ nav2:
         url: /adopt-a-ford/
 
 
-nav3:
-  nav: Museum Select Motos
-  url: /museum-select-motors/
+#nav3:
+#  nav: Museum Select Motos
+#  url: /museum-select-motors/
 #  nav: Collections
 #  url: /collections/
 
-nav4:
+nav3:
   title: Donate
-  nav4_1:
+  nav3_1:
    title: Donate
    button: Visit Donate Page
-  nav4_2:
+   link: /donate/
+  nav3_2:
    title: Museum Select Motors
    button: Visit Museum Select Motors
    link: /museum-select-motors/
+
+nav4:
+  title: About
+  nav4_1:
+   title: About Us
+   item: 
+      - nav: About
+        url: /about/
+      - nav: Staff
+        url: /staff/
+      - nav: Patners
+        url: /patners/
+      - nav: Links
+        url: /links/
+  nav4_2:
+   title: J. Windle Event Center
+   item: 
+      - nav: Contact Form
+        url: /event-center/contact/
+      - nav: Photo Gallery
+        url: /event-center/gallery/
 
 nav5:
   title: Members
@@ -75,19 +97,19 @@ nav5:
 #   - nav: Become a Member
 #     url: /new-member/
 
-nav6:
-  title: About
-  item: 
-   - nav: About Us
-     url: /about/
-   - nav: Staff
-     url: /staff/
-   - nav: Partners
-     url: /partners/
-   - nav: Links
-     url: /links/
+#nav6:
+#  title: About
+#  item: 
+#   - nav: About Us
+#     url: /about/
+#   - nav: Staff
+#     url: /staff/
+#   - nav: Partners
+#     url: /partners/
+#   - nav: Links
+#     url: /links/
 
-nav7:
+nav6:
   nav: Contact
   url: /contact/
 

@@ -20,7 +20,9 @@ word-wrap:break-word;
 	width: 1px;
 }
 .article img,iframe{max-width:100%;}
-
+.expando {
+margin-bottom: -120px;
+}
 .footer-link {
 font-size: 24px;
 }
@@ -78,6 +80,30 @@ background-blend-mode: soft-light;
 
 
   color: #EEEDFB;
+
+.timer {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 15px;
+  border: 2px solid #af4261;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.timer:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
 
 /*
   background-image:linear-gradient(to right bottom, #051937, #001c46, #001e55, #002064, #0c2072, #1a2581, #272990, #342d9f, #3f39b5, #4a45cc, #5552e3, #5f5ffb); 
@@ -345,6 +371,7 @@ a .sub-title , .promo_text a{color:inherit;}
 width: 220px; 
 height:80px;
 }
+.mobile{display:none;}
 .header-image {
   position: absolute;
   top: 100px;
@@ -358,6 +385,7 @@ height:80px;
 }
 
 @media (min-width: 1400px) {
+.mobile{display:none;}
 .img-logo-footer {
 width: 220px; 
 height:120px;
@@ -403,60 +431,28 @@ h5 {font-size: 20px;}
 html,body,p,.btn,button,h2.btn,.lead {font-size: 16px;}
 }
 
-#time {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-  #time {
-    position: absolute;
-    top: 12px;
-    right: 80px;
-    width: auto !important;
-  }
-
-@media (min-width: 600px) {
-  #time {
-    position: absolute;
-    top: 12px;
-    right: 80px;
-    width: auto !important;
-  }
-}
 
 @media (max-width: 1024px) {
+
+.mobile{display:none;}
   .img-logo {
     margin-top: 10px;
     margin-left: 5px;
     width: 120px;
     height: 50px;
   }
-  
-  #timer {
-    position: absolute;
-    top: 3px;
-    right: 22px;
-    font-size: 14px;
-    width: auto !important;
-  }
-  
-  .mobile {
-    display: block;
-  }
+
+
 @media (max-width: 399px) {
+
+.desktop {display:none;}
   .img-logo {
 margin-top:10px;
 margin-left:5px;
     width: 120px;
     height: 50px;
   }
-  #timer {
-    position: absolute;
-    top: 3px;
-    right: 22px;
-    font-size: 14px;
-    width: auto !important;
-  }
+
   .mobile {
     display: block;
   }
@@ -474,11 +470,14 @@ margin-left:5px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .mobile-scroll {
     max-height: 70vh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
+
+
+
 

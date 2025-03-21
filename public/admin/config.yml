@@ -1,8 +1,8 @@
-#local_backend: true
+local_backend: true
 backend:
   name: git-gateway
-  repo: adamdjbrett/fordv8foundation.org
-  branch: main 
+#  repo: adamdjbrett/fordv8foundation.org
+#  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -79,8 +79,21 @@ collections:
             name: "nav3"
             widget: "object"
             fields:
-              - {label: "Nav", name: "nav", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Nav3_1"
+                name: "nav3_1"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Button", name: "button", widget: "string"}
+                  - {label: "Link URL", name: "link", widget: "string"}
+              - label: "Nav3_2"
+                name: "nav3_2"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Button", name: "button", widget: "string"}
+                  - {label: "Link URL", name: "link", widget: "string"}
           
           - label: "Nav4"
             name: "nav4"
@@ -92,14 +105,23 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Button", name: "button", widget: "string"}
+                  - label: "Navbar Item"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Nav Title", name: "nav", widget: "string"}
+                      - {label: "URL Link", name: "url", widget: "string"}
               - label: "Nav4_2"
                 name: "nav4_2"
                 widget: "object"
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Button", name: "button", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string"}
+                  - label: "Navbar Item"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Nav Title", name: "nav", widget: "string"}
+                      - {label: "URL Link", name: "url", widget: "string"}
           
           - label: "Nav5"
             name: "nav5"
@@ -117,20 +139,15 @@ collections:
             name: "nav6"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - label: "Items"
-                name: "item"
-                widget: "list"
-                fields:
-                  - {label: "Nav", name: "nav", widget: "string"}
-                  - {label: "URL", name: "url", widget: "string"}
-          
-          - label: "Nav7"
-            name: "nav7"
-            widget: "object"
-            fields:
               - {label: "Nav", name: "nav", widget: "string"}
               - {label: "URL", name: "url", widget: "string"}
+          
+#          - label: "Nav7"
+#            name: "nav7"
+#            widget: "object"
+#            fields:
+#              - {label: "Nav", name: "nav", widget: "string"}
+#              - {label: "URL", name: "url", widget: "string"}
           
           - {label: "Search", name: "search", widget: "string"}
           
