@@ -78,8 +78,10 @@ nav4:
   nav4_2:
    title: J. Windle Event Center
    item: 
-      - nav: Contact Form
-        url: /event-center/contact/
+      - nav: Event Center
+        url: /event-center/
+      - nav: Reservation Form
+        url: /event-center/reservation/
       - nav: Photo Gallery
         url: /event-center/gallery/
 

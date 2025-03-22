@@ -1,8 +1,8 @@
-#local_backend: true
+local_backend: true
 backend:
   name: git-gateway
-  repo: adamdjbrett/fordv8foundation.org
-  branch: main 
+#  repo: adamdjbrett/fordv8foundation.org
+#  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -549,14 +549,63 @@ collections:
       - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
-  - name: "eventcenter"
-    label: "Windle Event Center Page"
+  - name: "reservation_pages"
+    label: "Windle Event Center Reservation"
     editor:
       preview: false
     files:
-      - label: "Windle Event Center Page Setup"
+      - label: "Windle Event Center Reservation Setup"
+        name: "reservation"
+        file: "content/event-center/reservation.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/reservation.njk"}
+          - {label: "Title", name: "title", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - {label: "Formspree ID", name: "formspree_id", widget: "string", required: false}
+          - label: "Form Fields"
+            name: "form"
+            widget: "list"
+            required: false
+            field: {label: "Field Info", name: "info", widget: "string"}
+          - {label: "Event Title", name: "event_title", widget: "string", required: false}
+          - {label: "Event Title Form", name: "event_title_form", widget: "string", required: false}
+          - {label: "Event Information", name: "event_information", widget: "string", required: false}
+          - label: "Event"
+            name: "event"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Price", name: "price", widget: "string", required: false}
+              - label: "Items"
+                name: "item"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Text", name: "text", widget: "string", required: false}
+                  - {label: "Price", name: "price", widget: "string", required: false}
+          - label: "Note"
+            name: "note"
+            widget: "list"
+            required: false
+            field: {label: "Text", name: "text", widget: "string"}
+          - {label: "Submit Button Text", name: "button", widget: "string", required: false}
+          - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+          - {label: "Show Nearby", name: "show_nearby", widget: "boolean", required: false}
+   #       - {label: "Body", name: "body", widget: "markdown", required: false}
+
+
+  - name: "eventcenter"
+    label: "Windle Event Center Galleries"
+    editor:
+      preview: false
+    files:
+      - label: "Windle Event Center Gallery Page Setup"
         name: "windle_event_center_page"
-        file: "content/windle-event-center-reservation/gallery.md"
+        file: "content/event-center/gallery.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
