@@ -14,12 +14,13 @@ Desktop Peformance
 
 ### Change Log: 
 March 22,2025
++ Add J. Windle Event Center Reservation Form Page
 + Fix conflict collections data
 + Update group ticket form
 + Update membership_form
 + Add windle_event_center_page gallery list
 + Add windle_event_center_page gallery article
-+ Update content hub
++ Update content hub for all update
 
 March 21,2025
 + Fix Navbar
@@ -105,11 +106,11 @@ March 09,2025
 FV8F
 Main Menu
 3. Under about dropdown add J. Windle Event Center contact page. 
-    a. J. Windle Event Center Reservation Page
-        i. Contact form
-            1. Include event type dropdown
-            2. Event start date and time
-        ii. Photo gallery
+    a. J. Windle Event Center Reservation Page  - **DONE**
+        i. Contact form - **DONE**
+            1. Include event type dropdown  - **DONE**
+            2. Event start date and time - **DONE**
+        ii. Photo gallery  - **DONE**
 4. Collections
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
