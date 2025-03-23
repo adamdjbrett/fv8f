@@ -764,6 +764,61 @@ collections:
           - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
           - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
 
+  - name: "event_center_pages"
+    label: "J. Windle Event Center"
+    editor:
+      preview: false
+    files:
+      - label: "J. Windle Event Center Setup"
+        name: "event_center"
+        file: "content/event-center/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/event-center.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image"}
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Text"
+                name: "text"
+                widget: "list"
+                field: {label: "Info", name: "info", widget: "text"}
+              - {label: "Button Text", name: "button", widget: "string"}
+              - {label: "Button URL", name: "url", widget: "string"}
+          - label: "Intro"
+            name: "intro"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Text"
+                name: "text"
+                widget: "list"
+                field: {label: "Info", name: "info", widget: "text"}
+          - label: "Info"
+            name: "info"
+            widget: "list"
+            field: {label: "Text", name: "text", widget: "text"}
+          - label: "Contact"
+            name: "contact"
+            widget: "list"
+            field: {label: "Text", name: "text", widget: "text"}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Button Text", name: "button", widget: "string"}
+              - {label: "Button URL", name: "url", widget: "string"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: false}
+          - {label: "Show Motors", name: "show_motors", widget: "boolean", default: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", default: false}
+
+
   - name: "reservation_pages"
     label: "Windle Event Center Reservation"
     editor:

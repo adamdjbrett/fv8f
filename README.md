@@ -118,18 +118,6 @@ March 09,2025
 ---
 #### TODO
 
-FV8F
-Main Menu
-3. Under about dropdown add J. Windle Event Center contact page. 
-    a. J. Windle Event Center Reservation Page  - **DONE**
-        i. Contact form - **DONE**
-            1. Include event type dropdown  - **DONE**
-            2. Event start date and time - **DONE**
-        ii. Photo gallery  - **DONE**
-4. Collections - **DONE**
-    a. Add a dropdown that is Divided by decade like what we did for Museum Motors
-    b. Divide collection by decade on /collections/
-
 
 ---
 
@@ -140,7 +128,15 @@ Main Menu
     a. Remove collection on fv8f.fyi
     b. Make a button
     c. Link to https://www.museumselectmotors.com/
-
+3. Under about dropdown add J. Windle Event Center contact page.  - **DONE**
+    a. J. Windle Event Center Reservation Page  - **DONE**
+        i. Contact form - **DONE**
+            1. Include event type dropdown  - **DONE**
+            2. Event start date and time - **DONE**
+        ii. Photo gallery  - **DONE**
+4. Collections - **DONE**
+    a. Add a dropdown that is Divided by decade like what we did for Museum Motors
+    b. Divide collection by decade on /collections/
 5. https://fv8f.fyi/membership-form/ - **DONE**
     a. Make spouse optional
     b. Add a question “Do you want to receive the newsletter by email or mail?” then radio buttons: email and mail
@@ -153,7 +149,6 @@ Main Menu
 8. https://fv8f.fyi/group-ticket-form/ change “Number of Groups” to “Number of people in your group” - **DONE**
     a. Remove state
     b. Remove “request special rate” and change to say our minimum group size is 10 and the group rate is $6.00 a person.
-
 
 1. Create /feed/feed.xml and have it show all recent posts and events - ***DONE***
 2. Create /feed/news.xml and have it show all recent posts - ***DONE***
