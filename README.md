@@ -14,26 +14,27 @@ Desktop Peformance
 
 ### Change Log: 
 March 23,2025
-+ Major Update Collections Page
++ Finsih J. Windle Event Center Page - https://fv8f.fyi/event-center/
++ Major Update Collections Page - https://fv8f.fyi/collections/
 + Add collections page
-    - collections all
-    - collections 1930 list
+    - collections all https://fv8f.fyi/collections/all
+    - collections 1930 list https://fv8f.fyi/collections/1930
     - collections 1930 image post
-    - collections 1940 list
+    - collections 1940 list https://fv8f.fyi/collections/1940
     - collections 1940 image post
-    - collections 1950 list
+    - collections 1950 list https://fv8f.fyi/collections/1950
     - collections 1950 image post
-    - collections v8 engines
+    - collections v8 engines https://fv8f.fyi/collections/v8-engine
     - collections v8 engines post
 + Update Concent Hub
 + Update Navbar
 
 March 22,2025
-+ Add J. Windle Event Center Reservation Form Page
++ Add J. Windle Event Center Reservation Form Page https://fv8f.fyi/event-center/reservation
 + Fix conflict collections data
 + Update group ticket form
 + Update membership_form
-+ Add windle_event_center_page gallery list
++ Add windle_event_center_page gallery list https://fv8f.fyi/event-center/gallery
 + Add windle_event_center_page gallery article
 + Update content hub for all update
 
