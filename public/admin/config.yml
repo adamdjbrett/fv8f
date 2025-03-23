@@ -1,8 +1,8 @@
-local_backend: true
+#local_backend: true
 backend:
   name: git-gateway
-#  repo: adamdjbrett/fordv8foundation.org
-#  branch: main 
+  repo: adamdjbrett/fordv8foundation.org
+  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
