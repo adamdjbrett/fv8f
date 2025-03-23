@@ -76,6 +76,21 @@ nav4:
       - nav: Links
         url: /links/
   nav4_2:
+   title: Collections
+   item: 
+      - nav: 1930s
+        url: /collections/1930s/
+      - nav: 1940s
+        url: /collections/1940s/
+      - nav: 1950s
+        url: /collections/1950s/
+      - nav: V8 Engines
+        url: /collections/v8-engines/
+      - nav: View All
+        url: /collections/all/
+      - nav: Collections Page
+        url: /collections/
+  nav4_3:
    title: J. Windle Event Center
    item: 
       - nav: Event Center

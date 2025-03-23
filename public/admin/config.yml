@@ -1,8 +1,8 @@
-local_backend: true
+#local_backend: true
 backend:
   name: git-gateway
-#  repo: adamdjbrett/fordv8foundation.org
-#  branch: main 
+  repo: adamdjbrett/fordv8foundation.org
+  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -113,6 +113,17 @@ collections:
                       - {label: "URL Link", name: "url", widget: "string"}
               - label: "Nav4_2"
                 name: "nav4_2"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Navbar Item"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Nav Title", name: "nav", widget: "string"}
+                      - {label: "URL Link", name: "url", widget: "string"}
+              - label: "Nav4_3"
+                name: "nav4_3"
                 widget: "object"
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
@@ -513,9 +524,62 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Collections Gallery Setup"
+      - label: "Collections Gallery Page"
         name: "collections_gallery"
         file: "content/custom/collections.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/collections.njk"}
+          - label: "1930s"
+            name: "f1930"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "1940s"
+            name: "f1940"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "1950s"
+            name: "f1950"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "V8 Engines"
+            name: "v8"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "All Collections"
+            name: "all"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+          - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+#          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "collect1930"
+    label: "Collections 1930 Page Setup"
+    editor:
+      preview: false
+    files:
+      - label: "Collections 1930 Gallery Setup"
+        name: "collections_1930_gallery"
+        file: "content/custom/collections_1930.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
@@ -528,14 +592,12 @@ collections:
           - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
           - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
           - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
-          - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
-          - {label: "Body", name: "body", widget: "markdown", required: false}
 
-  - name: "collections_galleries"
-    label: "Collections Gallery"
+  - name: "collections_1930"
+    label: "Collections 1930s Gallery"
     editor:
       preview: false
-    folder: "content/galleries"
+    folder: "content/galleries/1930"
     create: true
     slug: "{{slug}}"
     fields:
@@ -547,7 +609,160 @@ collections:
       - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
       - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
       - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - name: "tags"
+        label: "Tags"
+        widget: "hidden"
+        default: ["collections1930"]
+
+  - name: "collect1940"
+    label: "Collections 1940 Page Setup"
+    editor:
+      preview: false
+    files:
+      - label: "Collections 1940 Gallery Setup"
+        name: "collections_1940_gallery"
+        file: "content/custom/collections_1940.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/gallery.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+
+  - name: "collections_1940"
+    label: "Collections 1940s Gallery"
+    editor:
+      preview: false
+    folder: "content/galleries/1940"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Date", name: "date", widget: "datetime", required: false}
+      - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+      - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+      - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+      - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+      - name: "tags"
+        label: "Tags"
+        widget: "hidden"
+        default: ["collections1940"]
+
+  - name: "collect1950"
+    label: "Collections 1950 Page Setup"
+    editor:
+      preview: false
+    files:
+      - label: "Collections 1950 Gallery Setup"
+        name: "collections_1950_gallery"
+        file: "content/custom/collections_1950.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/gallery.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+
+  - name: "collections_1950"
+    label: "Collections 1950s Gallery"
+    editor:
+      preview: false
+    folder: "content/galleries/1950"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Date", name: "date", widget: "datetime", required: false}
+      - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+      - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+      - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+      - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+      - name: "tags"
+        label: "Tags"
+        widget: "hidden"
+        default: ["collections1950"]
+#      - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "collectv8"
+    label: "Collections V8 Engines Setup"
+    editor:
+      preview: false
+    files:
+      - label: "Collections V8 Engines Gallery Setup"
+        name: "collections_v8_gallery"
+        file: "content/custom/collections_v8.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/gallery.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+#          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "collections_v8_post"
+    label: "Collections V8 Engines Gallery"
+    editor:
+      preview: false
+    folder: "content/galleries/v8-engines"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Date", name: "date", widget: "datetime", required: false}
+      - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+      - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+      - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
+      - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
+      - name: "tags"
+        label: "Tags"
+        widget: "hidden"
+        default: ["collectionsengine"]
+#      - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "collectall"
+    label: "Collections All Page Setup"
+    editor:
+      preview: false
+    files:
+      - label: "Collections All Gallery Setup"
+        name: "collections_all_gallery"
+        file: "content/custom/collections_all.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "design/gallery.njk"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Size", name: "size", widget: "number"}
+          - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: false, required: false}
+          - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", required: false}
+          - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
 
   - name: "reservation_pages"
     label: "Windle Event Center Reservation"
@@ -625,7 +840,7 @@ collections:
     label: "Windle Event Gallery"
     editor:
       preview: false
-    folder: "content/windle-event-center-reservation/galleries"
+    folder: "content/event-center/galleries"
     create: true
     slug: "{{slug}}"
     fields:

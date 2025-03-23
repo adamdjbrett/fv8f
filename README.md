@@ -13,6 +13,21 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+March 23,2025
++ Major Update Collections Page
++ Add collections page
+    - collections all
+    - collections 1930 list
+    - collections 1930 image post
+    - collections 1940 list
+    - collections 1940 image post
+    - collections 1950 list
+    - collections 1950 image post
+    - collections v8 engines
+    - collections v8 engines post
++ Update Concent Hub
++ Update Navbar
+
 March 22,2025
 + Add J. Windle Event Center Reservation Form Page
 + Fix conflict collections data
@@ -111,7 +126,7 @@ Main Menu
             1. Include event type dropdown  - **DONE**
             2. Event start date and time - **DONE**
         ii. Photo gallery  - **DONE**
-4. Collections
+4. Collections - **DONE**
     a. Add a dropdown that is Divided by decade like what we did for Museum Motors
     b. Divide collection by decade on /collections/
 
