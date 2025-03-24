@@ -24,27 +24,28 @@ data-src="{{image}}"/>
 </div>
 
 <div class="col-md-12 p-3 p-md-5">
-
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     
     <style>
         .gallery-container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
+            max-width: 100%;
+            margin: 30px auto;
+            padding: 0 15px;
+            overflow: hidden;
         }
 
         .swiper-container {
             width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
         }
 
         .swiper-slide {
             background-position: center;
             background-size: cover;
-            width: 300px;
-            height: 300px;
+            width: 80%;
+            max-width: 300px;
+            height: 250px;
             border-radius: 15px;
             overflow: hidden;
         }
@@ -58,18 +59,18 @@ data-src="{{image}}"/>
         }
 
         .swiper-slide:hover img {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
 
         .swiper-slide-active {
-            transform: scale(1.2);
+            transform: scale(1.1);
             z-index: 2;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
         }
 
         .swiper-pagination-bullet {
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             background: #007aff;
             opacity: 0.5;
         }
@@ -85,9 +86,67 @@ data-src="{{image}}"/>
 
         .gallery-title {
             text-align: center;
-            font-size: 36px;
-            margin-bottom: 30px;
+            font-size: 24px;
+            margin-bottom: 20px;
             color: #333;
+        }
+
+        @media (min-width: 576px) {
+            .swiper-slide {
+                height: 270px;
+            }
+
+            .gallery-title {
+                font-size: 28px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .gallery-container {
+                max-width: 720px;
+            }
+
+            .swiper-container {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+
+            .swiper-slide {
+                height: 280px;
+            }
+
+            .gallery-title {
+                font-size: 32px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .gallery-container {
+                max-width: 960px;
+            }
+
+            .swiper-container {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+            .swiper-slide {
+                height: 300px;
+            }
+
+            .swiper-slide-active {
+                transform: scale(1.15);
+            }
+
+            .gallery-title {
+                font-size: 36px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .gallery-container {
+                max-width: 1140px;
+            }
         }
     </style>
 
@@ -96,12 +155,11 @@ data-src="{{image}}"/>
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
-
-        {% for s in collections.eventgalleries | limit(8) %}
+                {% for s in collections.eventgalleries | limit(8) %}
                 <div class="swiper-slide">
                     <img src="{{s.data.image}}" alt="{{s.data.title}}">
                 </div>
-        {% endfor %}
+                {% endfor %}
             </div>
             
             <div class="swiper-pagination"></div>
@@ -110,9 +168,9 @@ data-src="{{image}}"/>
         </div>
     </div>
 
-<p class="text-center">
-<a href="{{gallery.url}}" class="btn btn-primary">{{gallery.button}}</a>
-</p>
+    <p class="text-center">
+        <a href="{{gallery.url}}" class="btn btn-primary">{{gallery.button}}</a>
+    </p>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -123,7 +181,7 @@ data-src="{{image}}"/>
             centeredSlides: true,
             slidesPerView: 'auto',
             coverflowEffect: {
-                rotate: 50,
+                rotate: 30,
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
@@ -142,9 +200,28 @@ data-src="{{image}}"/>
                 delay: 3000,
                 disableOnInteraction: false,
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                992: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 40
+                }
+            }
         });
     </script>
 </div>
+
 
 {% for if in intro %}
 <div class="col-md-6 p-3 p-md-5">
