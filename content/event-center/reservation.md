@@ -46,7 +46,7 @@ event:
      - text: "Museum Entrance"
        price: "$75"
 note:
- - text: "Recommended Capacity 100 or less for table seating in event hall"
+ - text: "Recommended Capacity 125 or less for table seating in event hall"
  - text: "Recommended Capacity 25 or less for table seating in classroom"
 button: Submit Now
 

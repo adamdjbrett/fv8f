@@ -184,7 +184,7 @@ https://maps.apple.com/?address=2181%20Rotunda%20Dr,%20Auburn,%20IN%20%2046706,%
 + Import Content Data and Convert design for Event Article Page and List [https://fv8f.fyi/events/](https://fv8f.fyi/events/)
 + Import Content Data and Convert design for Membership Page [https://fv8f.fyi/membership/](https://fv8f.fyi/membership/)
 + Import Content Data and Convert design for About Page [https://fv8f.fyi/about/](https://fv8f.fyi/about/)
-+ Import Content Data and Convert design for Patners Page [https://fv8f.fyi/patners/](https://fv8f.fyi/patners/)
++ Import Content Data and Convert design for Partners Page [https://fv8f.fyi/patners/](https://fv8f.fyi/patners/)
 + Import Content Data and Convert design for Nearby Attractions Page [https://fv8f.fyi/nearby-attractions/](https://fv8f.fyi/nearby-attractions/)
 + Implement shop page direct square site [https://fv8f.fyi/shop/](https://fv8f.fyi/shop/)
 + Implement new membership page direct square site [https://fv8f.fyi/new-member/](https://fv8f.fyi/new-member/)

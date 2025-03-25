@@ -15,7 +15,7 @@ about:
  url: "/event-center/reservation/"
 
 intro: 
- - title: "Attractive ClassRoom"
+ - title: "Attractive Classroom"
    text: 
     - info: "This large extra room is perfect for meetings, profesional development training,baby showers , off-site team building, clud activities, workshops."
     - info: "AND VERY AFFORDABLE!"
@@ -36,7 +36,7 @@ info:
 
 contact: 
      - text: "To have your event placed on our calendar, please remit a 50% down payment, wither by credit card, check or cash, and return a signed contract agreement. The balance will be due 10 days before your event."
-     - text: "If you have any questions after reading the contract agreement, please call Jan at 260-927-8022 or email at janene2024@outlook.com"
+     - text: "If you have any questions after reading the contract agreement, please call Jan at 260-927-8022 or email at jan@fordv8foundation.org"
      - text: "We look forward to hosting you and your guests!"
 
 gallery:
