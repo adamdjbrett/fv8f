@@ -21,8 +21,8 @@ nav_donate:
  url: https://www.paypal.com/donate/?hosted_button_id=NP2EGFG5NSJA4
 
 nav_museum:
-  nav: Visit Museum
-  url: /museum-select-motors/
+  nav: Museum Select Motors
+  url: https://www.museumselectmotors.com/
 
 nav1:
   nav: Home
@@ -47,7 +47,7 @@ nav2:
 
 #nav3:
 #  nav: Museum Select Motos
-#  url: /museum-select-motors/
+#  url: https://www.museumselectmotors.com/
 #  nav: Collections
 #  url: /collections/
 
@@ -60,7 +60,7 @@ nav3:
   nav3_2:
    title: Museum Select Motors
    button: Visit Museum Select Motors
-   link: /museum-select-motors/
+   link: https://www.museumselectmotors.com/
 
 nav4:
   title: About
@@ -219,7 +219,7 @@ motors:
     others: Others Motors
     title: Museum Select Motors
     button: Visit Museum Select Motors
-    url: /museum-select-motors/
+    url: https://www.museumselectmotors.com/
 
 
 museum_display: 
