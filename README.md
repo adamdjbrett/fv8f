@@ -14,7 +14,7 @@ Desktop Peformance
 
 ### Change Log: 
 March 23,2025
-+ Finsih J. Windle Event Center Page - https://fv8f.fyi/event-center/
++ Finish J. Windle Event Center Page - https://fv8f.fyi/event-center/
 + Major Update Collections Page - https://fv8f.fyi/collections/
 + Add collections page
     - collections all https://fv8f.fyi/collections/all
@@ -123,6 +123,7 @@ March 09,2025
 ---
 
 #### DONE
+A. Update hero image
 
 1. Change support back to donate - **DONE**
 2. Add Museum Select Motos to Menu Bar - **DONE**

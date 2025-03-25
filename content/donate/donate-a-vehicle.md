@@ -2,7 +2,7 @@
 title: Donate A Vehicle
 description: Opportunities With The Early Ford V-8 Foundation Museum - Donate A Vehicle
 date: 2023-07-28
-image: /img/donate/Early-Ford-V8-Foundation-Museum-A025.webp
+image: /img/donate/50s-car-lineup.jpg
 show_faq: true
 faq_active: 
   q: "Will the Early Ford V-8 Foundation Museum help me with all paperwork, help assure I get the best tax deduction, and will it arrange pickup?"
