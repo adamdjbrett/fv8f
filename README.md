@@ -13,6 +13,17 @@ Desktop Peformance
 ---
 
 ### Change Log: 
+
+March 27,2025
++ Update Donate a Vehicle - https://fv8f.fyi/donate/donate-a-vehicle/
++ Update Update Adopta ford + Form - https://fv8f.fyi/adopt-a-ford/
++ Update Buy The Foot + Form - https://fv8f.fyi/donate/buy-the-foot/
++ Update Capital Campaign “Building the Future” - https://fv8f.fyi/donate/capital-campaign-2/
++ update Planned Giving- https://fv8f.fyi/donate/planned-giving/
++ Add collase image
++ Update short code grid4
++ Update short code buttonfootsingle
+
 March 23,2025
 + Finish J. Windle Event Center Page - https://fv8f.fyi/event-center/
 + Major Update Collections Page - https://fv8f.fyi/collections/

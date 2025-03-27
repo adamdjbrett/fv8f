@@ -122,21 +122,34 @@ export default function(eleventyConfig) {
     return `
 <div class="row mb-3 text-center">
   <div class="p-3 col-md-3 col-6 zoom">
-    <img class="img-fluid mb-3" alt="${alt1}" width="100%" height="100%" src="${src1}"/>
+    <img class="img-fluid mb-3 img-ev" alt="${alt1}" width="100%" height="100%" src="${src1}"/>
   </div>
   <div class="p-3 col-md-3 col-6 zoom">
-    <img class="img-fluid mb-3" alt="${alt2}" width="100%" height="100%" src="${src2}"/>
+    <img class="img-fluid mb-3 img-ev" alt="${alt2}" width="100%" height="100%" src="${src2}"/>
   </div>
   <div class="p-3 col-md-3 col-6 zoom">
-    <img class="img-fluid mb-3" alt="${alt3}" width="100%" height="100%" src="${src3}"/>
+    <img class="img-fluid mb-3 img-ev" alt="${alt3}" width="100%" height="100%" src="${src3}"/>
   </div>
   <div class="p-3 col-md-3 col-6 zoom">
-    <img class="img-fluid mb-3" alt="${alt4}" width="100%" height="100%" src="${src4}"/>
+    <img class="img-fluid mb-3 img-ev" alt="${alt4}" width="100%" height="100%" src="${src4}"/>
   </div>
 </div>
     `;
   });
 
+  eleventyConfig.addShortcode("buttonfootsinggle", function({ text1,src1,alt1,btn1,url1,text2,src2,alt2,btn2,url2,text3,src3,alt3,btn3,url3}) {
+    return `
+<div class="row mb-3 text-center">
+  <div class="p-3 col-md-6">
+    <img class="img-fluid mb-3" alt="${alt1}" width="100%" height="100%" src="${src1}"/>
+  </div>
+  <div class="p-3 col-md-6">
+    <p>${text1}</p>
+    <p><a href="${url1}" class="btn btn-primary">${btn1}</a></p>
+  </div>
+</div>
+    `;
+  });
 
   eleventyConfig.addShortcode("buttonfoot", function({ text1,src1,alt1,btn1,url1,text2,src2,alt2,btn2,url2,text3,src3,alt3,btn3,url3}) {
     return `
