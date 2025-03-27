@@ -2,7 +2,7 @@
 title: Donate A Vehicle
 description: Opportunities With The Early Ford V-8 Foundation Museum - Donate A Vehicle
 date: 2023-07-28
-image: /img/donate/50s-car-lineup.jpg
+image: /img/fordesa.jpg
 show_faq: true
 faq_active: 
   q: "Will the Early Ford V-8 Foundation Museum help me with all paperwork, help assure I get the best tax deduction, and will it arrange pickup?"
@@ -23,7 +23,7 @@ faq:
      NO. While we want Ford and Mercury vehicles for public and educational purposes, we also would be happy to accept vehicles that could serve as fund-raisers, such as modern cars, trucks and SUVs, or items such as Boats, Snowmobiles, Trailers, Motorcycles, Tractors, etc. Thus you have a means to donate to a charity, avoid the hassle of selling it, and achieve a tax deduction at the same time. You'll be notified of the Foundation's decision to accept your donation as soon as possible after you have completed the attached form and any questions are resolved.
 button: 
  text: Download The Vehicle Donation Form
- url: /pdf/VehicleDonationForm.pdf
+ url: /pdf/vehicle donation form.pdf
 show_event_article: true
 show_ford_store: true
 show_motors: true
@@ -34,13 +34,13 @@ The Early Ford V-8 Foundation Museum is an IRS designated 501(c)(3) not-for-prof
 The Early Ford V-8 Foundation has been able to create its museum because supporters like you, recognize the importance of keeping early Ford history alive for friends, family, and future generations.
 
 {% grid4 
-  src1="/img/donate/002-32-5w.webp",
+  src1="/img/ford2.webp",
   alt1="Donate A Vehicle",
-  src2="/img/donate/47-coe.webp",
+  src2="/img/ford1.webp",
   alt2="Donate A Vehicle",
-  src3="/img/donate/180153246_5600749009999493_4216552218508036323_n.webp",
+  src3="/img/ford5.webp",
   alt3="Donate A Vehicle",
-  src4="/img/donate/bus.webp",
+  src4="/img/ford4.webp",
   alt4="Donate A Vehicle"
 %}
 

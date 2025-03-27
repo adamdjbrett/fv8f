@@ -11,6 +11,7 @@ faq_active:
       + Your collection of Early Ford cars, trucks, and memorabilia could go to the wrong person or organization.
       + Your estate could pay more than necessary in administrative costs
       + You may miss out on some significant estate-tax savings opportunities available to you
+      + please speak to our director at 260-927-8022 for more information on planned giving
 faq: 
   - q: "Building a Legacy as well as an Early Ford V-8 Museum"
     sort: 1
@@ -32,6 +33,7 @@ faq:
       + Preservation of an asset, coupled with the elimination, reduction, or deferral of capital gains
       + Professional management of an asset
       + Gift and Estate Tax savings
+      + Please contact your estate planner or accountant for specific benefits
 show_event_article: true
 show_motors: true
 show_ford_store: true

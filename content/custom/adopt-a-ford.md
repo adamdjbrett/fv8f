@@ -2,11 +2,11 @@
 title: Adopt-A-Ford
 description: Adopt your very own vehicle.
 layout: design/adopts.njk
-image: /img/adopt/51-fordor.webp
+image: /img/fordesa.jpg
 pagination:
   data: collections.adopts
   size: 9
-  reverse: true
+  reverse: false
 testdata:
  - item1
  - item2
@@ -14,7 +14,7 @@ testdata:
  - item4
 button: 
  text: Download The Adopt-A-Ford Form
- url: /pdf/Adopt-A-Ford.pdf
+ url: /pdf/Adopt a Ford form pdf.pdf
 show_event_article: false
 show_ford_store: false
 show_motors: false

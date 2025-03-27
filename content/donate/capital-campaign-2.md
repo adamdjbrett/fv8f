@@ -29,7 +29,7 @@ faq:
     a: |
       Parking Spot - 15 new spots were added to our parking lot to accommodate guests in the event center, available for $1,500.
       Decade Sponsor: What's your favorite era, the 1930s, the '40s, or the '50s? Now is the time to take advantage of having an area named for your favorite era of display cars. Available for $10,000.
-      Offices (2) - Workspace for employees to conduct business, $20,000.
+      Offices were sponsored in 2024 - Workspace for employees to conduct business, $20,000.
       Landscaping - Help with the beautification of the outside of the new building by sponsoring the landscaping for $30,000.
       Art Deco Entry Way - Entrance to the Event Center with glass block and Ford Dealership decor, $100,000.
       Storage Vault - Storage for the museums growing collection, $200,000. You can sponsor a square foot or a square yard within this space to help the Museum reach its goal.
