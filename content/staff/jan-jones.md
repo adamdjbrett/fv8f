@@ -2,7 +2,7 @@
 title: Jan Jones
 description: "Communications, Marketing and Events"
 date: 2022-02-07
-image: /img/staff/me.webp
+image: /img/staff/me-2.jpg
 social: 
  - title: jan Facebook
    icon: fab fa-facebook
