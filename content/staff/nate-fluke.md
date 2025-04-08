@@ -14,7 +14,7 @@ social:
    icon: fab fa-linkedin
    url: https://linkedin.com
 button:
- title: Sent Nate Message
+ title: Send Nate Message
  url: "nate@fordv8foundation.org"
 show_event_article: true
 show_ford_store: true

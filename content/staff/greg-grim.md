@@ -14,7 +14,7 @@ social:
    icon: fab fa-linkedin
    url: https://linkedin.com
 button:
- title: Sent Greg Message
+ title: Send Greg Message
  url: "greg@fordv8foundation.org"
 show_event_article: true
 show_ford_store: true
