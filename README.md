@@ -18,6 +18,7 @@ April 09 2025
 + Update Navbar Donate
 + Update metadata navbar donate
 + Update Content Hub
++ Fix build
 
 March 27,2025
 + Update Donate a Vehicle - https://fv8f.fyi/donate/donate-a-vehicle/
