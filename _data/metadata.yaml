@@ -55,6 +55,17 @@ nav3:
   title: Donate
   nav3_1:
    title: Donate
+   item: 
+      - nav: Planned Giving
+        url: /donate/planned-giving/
+      - nav: Memorial Fund
+        url: /donate/memorial-fund/
+      - nav: Donate A Vehicle
+        url: /donate/donate-a-vehicle/
+      - nav: Brick Campaign
+        url: /donate/brick-campaign/
+      - nav: 'Capital Campaign "Building the Future"'
+        url: /donate/capital-campaign-2/
    button: Visit Donate Page
    link: /donate/
   nav3_2:
