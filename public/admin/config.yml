@@ -1,8 +1,8 @@
-#local_backend: true
+local_backend: true
 backend:
   name: git-gateway
-  repo: adamdjbrett/fordv8foundation.org
-  branch: main 
+#  repo: adamdjbrett/fordv8foundation.org
+#  branch: main 
 media_folder: 'public/img'
 public_folder: '/img'
 
@@ -85,6 +85,12 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
+                  - label: "Items"
+                    name: "item"
+                    widget: "list"
+                    fields:
+                      - {label: "Nav", name: "nav", widget: "string"}
+                      - {label: "URL", name: "url", widget: "string"}
                   - {label: "Button", name: "button", widget: "string"}
                   - {label: "Link URL", name: "link", widget: "string"}
               - label: "Nav3_2"
