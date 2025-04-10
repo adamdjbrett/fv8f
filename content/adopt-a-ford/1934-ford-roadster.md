@@ -2,6 +2,7 @@
 title: 1934 Ford Roadster
 description: Donated by Bill & Joann Fox-MD Adopted by John Knecht-NY
 image: /img/adopt/34-roadster.webp
+status: has been adopted
 date: 2025-02-24
 button: 
  text: Download The Adopt-A-Ford Form

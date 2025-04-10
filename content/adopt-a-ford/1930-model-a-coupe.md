@@ -2,6 +2,7 @@
 title: 1930 Model A Coupe
 description: Donated by Art Jansen - TX
 image: /img/adopt/006-30-cpe.webp
+status: has been adopted
 date: 2025-03-02
 button: 
  text: Download The Adopt-A-Ford Form

@@ -2,6 +2,7 @@
 title: 1941 Ford Tudor
 description: Donated by Kaywin Martin, FL Adopted by Kaywin Martin
 image: /img/adopt/41-fordtudor.webp
+status: has been adopted
 date: 2025-02-24
 button: 
  text: Download The Adopt-A-Ford Form
