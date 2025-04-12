@@ -1,6 +1,6 @@
 ---
 title: Mariah Grim
-description: Front Desk Attendant
+description: Office Assistant
 date: 2022-02-06
 image: /img/staff/Mariah.webp
 social: 

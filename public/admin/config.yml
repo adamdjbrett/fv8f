@@ -1581,26 +1581,26 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - label: "Social"
-        name: "social"
-        widget: "list"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Icon", name: "icon", widget: "string"}
-          - {label: "URL", name: "url", widget: "string"}
-      - label: "Button"
-        name: "button"
-        required: false
-        widget: "object"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "URL", name: "url", widget: "string"}
+#      - label: "Social"
+#        name: "social"
+#        widget: "list"
+#        fields:
+#          - {label: "Title", name: "title", widget: "string"}
+#          - {label: "Icon", name: "icon", widget: "string"}
+#          - {label: "URL", name: "url", widget: "string"}
+#      - label: "Button"
+#        name: "button"
+#        required: false
+#        widget: "object"
+#       fields:
+#          - {label: "Title", name: "title", widget: "string"}
+#          - {label: "URL", name: "url", widget: "string"}
       - {label: "Show Event Article", name: "show_event_article", widget: "boolean", default: true, required: false}
       - {label: "Show Ford Store", name: "show_ford_store", widget: "boolean", default: true, required: false}
       - {label: "Show Partner", name: "show_partner", widget: "boolean", default: true, required: false}
       - {label: "Show Nearby", name: "show_nearby", widget: "boolean", default: true, required: false}
       - {label: "Show Motors", name: "show_motors", widget: "boolean", default: true, required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+#      - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "tours_setup"
     label: "Tours Setup Page"

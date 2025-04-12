@@ -39,12 +39,13 @@ layout: base.njk
 <div class="col-md-5 p-3 p-md-5">
 <h2>{{title}}</h2>
 <h3>{{description}}</h3>
+<!--
 {% if button.url %}<p class="mt-3 mb-3">
 <a href="mailto:{{button.url}}" class="btn btn-primary">{{button.title}} <i class="ms-1 fas fa-envelope"></i></a>
 </p>{% endif %}
 <p class="mt-3 mb-3">{% for s in social %}
 <a href="{{s.url}}" title="{{s.title}}" class="btn btn-primary rounded-circle btn-sm me-3"><i class="{{s.icon}}"></i></a>{% endfor %}</p>
-<heading-anchors>{{content|safe}}</heading-anchors>
+<heading-anchors>{{content|safe}}</heading-anchors> -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style mt-5" 
 data-a2a-url="{{metadata.url}}{{page.url}}" data-a2a-title="{{title}}">
    <a class="a2a_button_facebook"></a>
