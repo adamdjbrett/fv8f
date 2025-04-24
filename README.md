@@ -14,6 +14,12 @@ Desktop Peformance
 
 ### Change Log: 
 
+April 25 2025
++ Update Adopt Ford Scheme
++ Remove Pagination For Adopt Ford
++ Add Grouping by years / adopted vechicles and all
++ Update Content Hub
+
 April 09 2025
 + Update Navbar Donate
 + Update metadata navbar donate
