@@ -499,6 +499,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+      - {label: "Car Name", name: "car_name", widget: "string"}
       - {label: "Status", name: "status", widget: "string"}
       - {label: "Image", name: "image", widget: "image",required:false}
       - {label: "Date", name: "date", widget: "datetime"}
@@ -523,7 +524,15 @@ collections:
       - {label: "Show Motors", name: "show_motors", widget: "boolean", required: false}
       - {label: "Show Partner", name: "show_partner", widget: "boolean", required: false}
       - {label: "Show Nearby", name: "show_nearby", widget: "boolean", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {
+         label: "Tags",
+         name: "tags",
+         widget: "select",
+         options: ["1930s", "1940s", "1950s", "adopted"],
+         multiple: true,
+         required: false,
+         hint: "Select the tag according to the vehicle year, and if adopted add the adopted tag - you can enter up to 2 options."
+        }
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "collect"

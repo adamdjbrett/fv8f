@@ -1,5 +1,6 @@
 ---
 title: 1953 Ford Customline Fordor
+car_name: 1953 Ford Customline Fordor
 description: Donated by Frank Corey-NM Adopted by Frank Scheidt-NY
 image: /img/adopt/53-fordor.webp
 status: has been adopted
@@ -11,6 +12,7 @@ show_event_article: true
 show_ford_store: true
 show_partner: false
 tags: 
- - adopted vehicles
+ - adopted
+ - 1950s
 ---
 
