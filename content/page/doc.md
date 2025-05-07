@@ -8,17 +8,16 @@ eleventyExcludeFromCollections: true
 ### fv8f Docs
 
 + Setings 
-    + For website setup
-    + Nearby Attractions Page can be update on `_data/metadata.yaml` nearby menu
-    + Nav is to config navbar area
-    + Nav News ,Events and Donate Nav automatically pulls from collection data
-    + Nav museum select motor you can update on `museum_display` area on cms
-    + Footer is to update footer area
-    + All section can be update on settings cms
-
+    - For website setup
+    - Nearby Attractions Page can be update on `_data/metadata.yaml` or on settings in backend CMS nearby menu
+    - Nav is to config navbar area
+    - Nav News ,Events and Donate Nav automatically pulls from collection data
+    - Nav museum select motor you can update on `museum_display` area on cms
+    - Footer is to update footer area
+    - All section can be update on settings cms
++ Widget on all pages - we can show or hide widget on all page such show_motors , show_nearby, show_ford_store, show_partner.
 + Home Page to update the home area
 + About Page to update the about page area
-+ Home Page to update the home area
 + Adopt Ford Setup to update the Adopt Ford List Page
 + Adopt-A-Ford to update Adopt-A-Ford article
 + Collections Page Setup to update collections main page
